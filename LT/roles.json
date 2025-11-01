@@ -1,0 +1,2025 @@
+[
+  {
+    "id": "washerwoman",
+    "name": "Skalbėja",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNightReminder": "Parodyti Miestiečio personažo žetoną, parodyti į 2 žaidėjus iš kurių vienas yra nurodytas personažas.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Townsfolk",
+      "Wrong"
+    ],
+    "setup": false,
+    "ability": "Pradedi žaidimą žinodamas, kad 1 iš 2 žaidėjų yra tam tikras Miestietis."
+  },
+  {
+    "id": "librarian",
+    "name": "Bibliotekininkas",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNightReminder": "Parodyti Prašalaičio personažo žetoną, parodyti į 2 žaidėjus iš kurių vienas yra nurodytas personažas.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Outsider",
+      "Wrong"
+    ],
+    "setup": false,
+    "ability": "Pradedi žaidimą  žinodamas, kad 1 iš 2 žaidėjų yra tam tikras Prašalaitis. (Arba kad žaidime jų yra 0.)"
+  },
+  {
+    "id": "investigator",
+    "name": "Tyrėjas",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNightReminder": "Parodyti Pakalikas personažo žetoną, parodyti į 2 žaidėjus iš kurių vienas yra nurodytas personažas.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Minion",
+      "Wrong"
+    ],
+    "setup": false,
+    "ability": "Pradedi žaidimą  žinodamas, kad 1 iš 2 žaidėjų yra tam tikras Pakalikas."
+  },
+  {
+    "id": "chef",
+    "name": "Virėjas",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNightReminder": "Parodyti signalą pirštais (0, 1, 2, …) kiek porų blogų žaidėjų yra žaidime.",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Pradedi žaidimą  žinodamas, kiek porų blogų žaidėjų dalyvauja žaidime."
+  },
+  {
+    "id": "empath",
+    "name": "Empatas",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNightReminder": "Parodyti signalą pirštais (0, 1, 2) kiek gyvų kaimynų yra blogi.",
+    "otherNightReminder": "Parodyti signalą pirštais (0, 1, 2) kiek gyvų kaimynų yra blogi.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną naktį sužinai, kiek iš tavo 2 gyvų kaimynų yra blogi."
+  },
+  {
+    "id": "fortuneteller",
+    "name": "Būrėjas",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNightReminder": "Būrėjas parodo į 2 žaidėjus. Duoti galvos signalą (linktelti 'taip', papurtyti 'ne') jei vienas iš žaidėjų yra Demonas.",
+    "otherNightReminder": "Būrėjas parodo į 2 žaidėjus. Duoti galvos signalą (linktelti 'taip', papurtyti 'ne') jei vienas iš žaidėjų yra Demonas.",
+    "reminders": [
+      "Red Herring"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį pasirenki 2 žaidėjus. Sužinai ar vienas iš jų yra Demonas. Yra geras žaidėjas, kuris tau matosi kaip demonas."
+  },
+  {
+    "id": "undertaker",
+    "name": "Duobkasys",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei žaidėjui buvo atlikta egzekucija. Parodyti to žaidėjo personažo žetoną.",
+    "reminders": [
+      "Died Today"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį* sužinai, kuris personažas  šiandien mirė nuo egzekucijos."
+  },
+  {
+    "id": "monk",
+    "name": "Vienuolis",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Prieš tai saugotas žaidėjas nebėra saugomas. Vienuolis parodo į žaidėją (ne save) , pažymėti žaidėją žetonu 'Safe'.",
+    "reminders": [
+      "Safe"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį* pasirink žaidėją (ne save). Jis yra apsaugotas nuo Demono. "
+  },
+  {
+    "id": "ravenkeeper",
+    "name": "Kranklių užkalbėtojas",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei šiąnakt mirė Kranklių užkalbėtojas: Kranklių užkalbėtojas parodo į žaidėją. Parodyti to žaidėjo žetoną.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Jei miršti naktį, esi pažadinamas. Pasirink žaidėją. Sužinai to žaidėjo personažą."
+  },
+  {
+    "id": "virgin",
+    "name": "Mergelė",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Kai esi nominuojamas pirmą kartą, jei nominuotojas yra Miestietis, jam iškart atliekama egzekucija."
+  },
+  {
+    "id": "slayer",
+    "name": "Žudikas",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Vieną kartą per žaidimą, dienos metu, viešai pasirink žaidėją, jei jis yra Demonas, jis miršta."
+  },
+  {
+    "id": "soldier",
+    "name": "Karys",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Tu esi saugus nuo Demono."
+  },
+  {
+    "id": "mayor",
+    "name": "Meras",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Jei liko gyvi tik 3 žaidėjai ir neįvyksta egzekucija, tavo komanda laimi. Jei miršti naktį, kitas žaidėjas galbūt mirs vietoj tavęs."
+  },
+  {
+    "id": "butler",
+    "name": "Liokajaus",
+    "edition": "tb",
+    "team": "outsider",
+    "firstNightReminder": "Liokajaus parodo į žaidėją. Pažymėti nurodytą žaidėją 'Master' markeriu.",
+    "otherNightReminder": "Liokajaus parodo į žaidėją. Pažymėti nurodytą žaidėją 'Master' markeriu.",
+    "reminders": [
+      "Master"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį pasirenki žaidėją (ne save): ryt gali balsuoti, tik jei tas žaidėjas balsuoja. "
+  },
+  {
+    "id": "drunk",
+    "name": "Girtuoklis",
+    "edition": "tb",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Is The Drunk"
+    ],
+    "setup": true,
+    "ability": "Tu nežinai kad esi girtas. Tu galvoji, kad esi Miestietis, bet toks nesi."
+  },
+  {
+    "id": "recluse",
+    "name": "Atsiskyrėlis",
+    "edition": "tb",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Tu galbūt atpažįstamas kaip blogas žaidėjas, Pakalikas arba Demonas, net kai esi miręs."
+  },
+  {
+    "id": "saint",
+    "name": "Šventasis",
+    "edition": "tb",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Jei miršti dėl egzekucijos, tavo komanda pralaimi."
+  },
+  {
+    "id": "poisoner",
+    "name": "Nuodytojas",
+    "edition": "tb",
+    "team": "minion",
+    "firstNightReminder": "Nuodytojas parodo pirštu į žaidėją. Žaidėjas yra apnuodytas.",
+    "otherNightReminder": "Prieš tai dieną apnuodytas žaidėjas, nebėra apnuodytas. Nuodytojas parodo pirštu į žaidėją. Žaidėjas yra apnuodytas.",
+    "reminders": [
+      "Poisoned"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį pasirink žaidėją.  Tas žaidėjas tą naktį ir kitą dieną yra apnuodytas."
+  },
+  {
+    "id": "spy",
+    "name": "Šnipas",
+    "edition": "tb",
+    "team": "minion",
+    "firstNightReminder": "Parodyti Šnipui Grimuarą tiek kiek jis to norės.",
+    "otherNightReminder": "Parodyti Šnipui Grimuarą tiek kiek jis to norės.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną naktį pamatai Grimuarą. Tu galbūt atpažįstamas kaip Miestietis arba Prašalaitis , net jei esi miręs."
+  },
+  {
+    "id": "scarletwoman",
+    "name": "Čigonė",
+    "edition": "tb",
+    "team": "minion",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei Čigonė tampa Demonu: Parodyti 'TU ESI' kortą, tada parodyti Demono žetoną.",
+    "reminders": [
+      "Is The Demon"
+    ],
+    "setup": false,
+    "ability": "Jei gyvi yra 5 ar daugiau žaidėjų (Keliauninkai nesiskaičiuoja) ir Demonas miršta, tu tampi Demonu. "
+  },
+  {
+    "id": "baron",
+    "name": "Baronas",
+    "edition": "tb",
+    "team": "minion",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": "Žaidime dalyvauja papildomi Prašalaičiai [+2 Prašalaičiai]"
+  },
+  {
+    "id": "imp",
+    "name": "Velniūkštis",
+    "edition": "tb",
+    "team": "demon",
+    "firstNightReminder": "",
+    "otherNightReminder": "Velniūkštis parodo į žaidėją. Tas žaidėjas miršta. Jei Velniūkštis pasirenka save: pakeisti 1 gyvo pakaliko žetoną į Demono. Parodyti 'TU ESI' kortą, tada parodyti Demono žetoną.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį* pasirenki žaidėją. Jis miršta. Jei nužudai save šiuo būdu, Pakalikas tampa Demonu."
+  },
+  {
+    "id": "thief",
+    "name": "Vagis",
+    "edition": "tb",
+    "team": "traveller",
+    "firstNightReminder": "Vagis parodo į žaidėją. Žaidėją pažymėk 'Negative Vote' markeriu.",
+    "otherNightReminder": "Vagis parodo į žaidėją. Žaidėją pažymėk 'Negative Vote' markeriu.",
+    "reminders": [
+      "Negative Vote"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį, pasirink žaidėją (ne save): rytoj jo balsavimas skaičiuojamas priešingai."
+  },
+  {
+    "id": "bureaucrat",
+    "name": "Biurokratas",
+    "edition": "tb",
+    "team": "traveller",
+    "firstNightReminder": "Biurokratas parodo į žaidėją. Žaidėją pažymėk 'Negative Vote' markeriu.",
+    "otherNightReminder": "Biurokratas parodo į žaidėją. Žaidėją pažymėk 'Negative Vote' markeriu.",
+    "reminders": [
+      "3 Votes"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį, pasirink žaidėją (ne save): rytoj jo balsas vertas 3 balsų."
+  },
+  {
+    "id": "gunslinger",
+    "name": "Šaulys",
+    "edition": "tb",
+    "team": "traveller",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną dieną, pabaigus suskaičiuoti 1 dienos balsavimą, pasirink žaidėją kuris balsavo: jis miršta."
+  },
+  {
+    "id": "scapegoat",
+    "name": "Atpirkimo ožys",
+    "edition": "tb",
+    "team": "traveller",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Jei žaidėjui iš tavo komandos yra atliekama egzekucija, tu galimai miršti vietoje jo."
+  },
+  {
+    "id": "beggar",
+    "name": "Elgeta",
+    "edition": "tb",
+    "team": "traveller",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Balsuoti gali tik sunaudojęs balsavimo žetoną. Jei miręs žaidėjas atiduota tau savo žetoną, tu sužinai kuriai komandai jis priklauso. Tu esi sveikas ir blaivus."
+  },
+  {
+    "id": "grandmother",
+    "name": "Močiutė",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNightReminder": "Parodyk pažymėto žaidėjo žetoną. Parodyk pirštu į nurodytą žaidėją.",
+    "otherNightReminder": "Jei Močiutės anūkas yra nužudomas Demono. Močiutė miršta.",
+    "reminders": [
+      "Grandchild",
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "Pradedi žaidimą žinodamas gerą žaidėją ir jo personažą. Jei demonas jį nužudo, miršti kartu su juo."
+  },
+  {
+    "id": "sailor",
+    "name": "Jūreivis",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNightReminder": "Jūreivis parodo į gyvą žaidėją. Arba Jūreivis arba pasirinktas žaidėjas yra girtas.",
+    "otherNightReminder": "Praeitą naktį girtas žaidėjas, nebėra girtas. Jūreivis parodo į gyvą žaidėją. Arba Jūreivis arba pasirinktas žaidėjas yra girtas.",
+    "reminders": [
+      "Drunk"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį, pasirink gyvą žaidėją: tu arba jis yra girtas iki ryto. Tu negali mirti."
+  },
+  {
+    "id": "chambermaid",
+    "name": "Kambarinė",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNightReminder": "Kambarinė parodo į 2 gyvus žaidėjus. Parodyk skaičių signalą (0, 1, 2, …) kiek iš nurodytų žaidėjų pabudo naktį dėl savo sugebėjimų.",
+    "otherNightReminder": "Kambarinė parodo į 2 gyvus žaidėjus. Parodyk skaičių signalą (0, 1, 2, …) kiek iš nurodytų žaidėjų pabudo naktį dėl savo sugebėjimų.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną naktį, pasirink 2 gyvus žaidėjus (ne save): tu sužinai kiek žaidėjų šiąnakt pabudo, dėl savo sugebėjimų."
+  },
+  {
+    "id": "exorcist",
+    "name": "Egzorcistas",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Egzorcistas parodo į žaidėją, kitą nei praeitą naktį. Jei tas žaidėjas yra Demonas: Pažadink demoną. Parodyk jam egzorcisto žetoną, parodyk pirštu į egzorcistą, Demonas daugiau nieko nedaro šią naktį.",
+    "reminders": [
+      "Chosen"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, pasirink žaidėją (kitą nei praeitą naktį): Demonas, jei jį pasirinkai, sužino kas tu esi ir neprabundą tą naktį."
+  },
+  {
+    "id": "innkeeper",
+    "name": "Užeigos savininkas",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Praeitą naktį apsaugoti ir girtas žaidėjas praranda žetonus. Užeigos savininkas parodo į 2 žaidėjus. Abu žaidėjai yra apsaugoti. Vienas iš jų girtas.",
+    "reminders": [
+      "Safe",
+      "Safe",
+      "Drunk"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*,  pasirink 2 žaidėjus: jie šiąnakt negali mirti, bet vienas iš jų girtas iki ryto."
+  },
+  {
+    "id": "gambler",
+    "name": "Lošėjas",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Lošėjas parodo į žaidėją ir personažą iš lapo. Jei suklysta, Lošėjas miršta.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, pasirink žaidėją ir spėk jo personažą, jei suklysti, miršti."
+  },
+  {
+    "id": "gossip",
+    "name": "Liežuvautojas",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei Liežuvautojo viešas pareiškimas buvo tiesa: pasirink žaidėją neturinti apsaugos. Jis miršta.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną dieną, gali padaryti viešą pareiškimą. Šiąnakt, jei pareiškimas buvo teisingas, vienas žaidėjas miršta."
+  },
+  {
+    "id": "courtier",
+    "name": "Dvariškis",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNightReminder": "Dvariškis parodo galvos signalą 'ne' arba pasirenka personažą iš lapo. Jei Dvariškis panaudojo savo sugebėjimą: jei žaidėjas dalyvauja žaidime, tas žaidėjas yra girtas.",
+    "otherNightReminder": "Sumažinti likusių dienų žetoną pasirinktam girtam žaidėjui. Dvariškis parodo gavlos signalą 'ne' arba pasirenka personažą iš lapo. Jei Dvariškis panaudojo savo sugebėjimą: jei žaidėjas dalyvauja žaidime, tas žaidėjas yra girtas.",
+    "reminders": [
+      "Drunk 1",
+      "Drunk 2",
+      "Drunk 3",
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Kartą per žaidimą, naktį, pasirink personažą: jis bus girtas 3 dienas ir 3 naktis."
+  },
+  {
+    "id": "professor",
+    "name": "Profesorius",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei profesorius nepanaudojo savo sugebėjimo: Profesorius parodo galvos signalą 'ne' arba pasirenka žaidėją: Jei tas žaidėjas yra Miestelėnas, jis tampa gyvu.",
+    "reminders": [
+      "Alive",
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Kartą per žaidimą, naktį*, pasirink mirusį žaidėją: jei jis yra Miestelėnas, jis prisikelia."
+  },
+  {
+    "id": "minstrel",
+    "name": "Minstrelis",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Everyone Is Drunk"
+    ],
+    "setup": false,
+    "ability": "Kai Pakalikas miršta dėl egzekucijos, visi kiti žaidėjai (išskyrus Keliautojus) yra girti iki rytojaus ryto."
+  },
+  {
+    "id": "tealady",
+    "name": "Arbatos ledi",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Cannot Die",
+      "Cannot Die"
+    ],
+    "setup": false,
+    "ability": "Jei abu tavo kaimynai yra geri, jie negali mirti."
+  },
+  {
+    "id": "pacifist",
+    "name": "Pacifistas",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Geras žaidėjas kuriam atlikta egzekucija gali išgyventi."
+  },
+  {
+    "id": "fool",
+    "name": "Kvailys",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Pirmą kartą kai miršti, nemiršti."
+  },
+  {
+    "id": "goon",
+    "name": "Niekšas",
+    "edition": "bmr",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Drunk"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį, 1 žaidėjas pasirinkęs tave su savo sugebėjimu yra girtas iki ryto. Tu pereini į jo komandą."
+  },
+  {
+    "id": "lunatic",
+    "name": "Lunatikas",
+    "edition": "bmr",
+    "team": "outsider",
+    "firstNightReminder": "Jei 7 ir daugiau žaidėjų: Parodyk Lunatikui kiek 'Pakalikų' žaidėjų dalyvauja lygų Pakalikams žaidime. Parodyk 3 apsimestinius personažų žetonus. Jei Lunatiko gautas žetonas yra Demono kuris prisikeltu naktį: leisk Lunatikui atlikti Demono veiksmą. Pažymėk jo 'atack' markerį. Pažadink demoną. Parodyk Demonui tikrąjį demono žetoną. Parodyk Lunatiko žaidėją. Jei Lunatikas užpuolė žaidėją: tikrajam Demonui parodyk kiekvieną pažymėtą žaidėją. Pašalink Lunatiko 'attack' markerius.",
+    "otherNightReminder": "Leisk Lunatikui atlikti Demono veiksmus. Pažymėk jo 'attack' markerį. Jei Lunatikas užpuolė žaidėją: tikrajam Demonui parodyk kiekvieną pažymėtą žaidėją. Pašalink Lunatiko 'attack' markerius",
+    "reminders": [
+      "Chosen",
+      "Chosen",
+      "Chosen"
+    ],
+    "setup": false,
+    "ability": "Tu manai kad esi Demonas, bet toks nesi. Demonas žino, kas tu esi iš tikro ir ką pasirinkai naktį."
+  },
+  {
+    "id": "tinker",
+    "name": "Tinkeris",
+    "edition": "bmr",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "Tinkeris gali mirti.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "Tu gali mirti, bet kuriuo metu."
+  },
+  {
+    "id": "moonchild",
+    "name": "Mėnulio vaikis",
+    "edition": "bmr",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei Mėnulio vaikis panaudojo savo sugebėjimą nutaikyta į kitą žaidėją šiandien: Jei tas žaidėjas yra geras, jis miršta.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "Kai sužinai, kad mirei, viešai pasirink 1 gyvą žaidėją. Šiąnakt, jei žaidėjas yra geras, jis mirs."
+  },
+  {
+    "id": "godfather",
+    "name": "Krikštatėvis",
+    "edition": "bmr",
+    "team": "minion",
+    "firstNightReminder": "Parodyk visus Prašalaičių žetonus dalyvaujančius žaidime.",
+    "otherNightReminder": "Jei Prašalaitis mirė šiandien: Krikštatėvis parodo į žaidėją. Jis miršta.",
+    "reminders": [
+      "Died Today",
+      "Dead"
+    ],
+    "setup": true,
+    "ability": "Pradedi žaidimą žinodamas kurie Prašalaičiai yra žaidime. Jei 1 iš jų mirė šiandien, naktį pasirink žaidėją: jis miršta. [-1 ar +1 Prašalaičių]"
+  },
+  {
+    "id": "devilsadvocate",
+    "name": "Velnio advokatas",
+    "edition": "bmr",
+    "team": "minion",
+    "firstNightReminder": "Velnio advokatas parodo į gyvą žaidėją. Tas žaidėjas rytoj išgyvens egzekuciją",
+    "otherNightReminder": "Velnio advokatas parodo į gyvą žaidėją, skirtinga praeitai nakčiai. Tas žaidėjas rytoj išgyvens egzekuciją.",
+    "reminders": [
+      "Survives Execution"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį, pasirink gyvą žaidėją (skirtinga praeitai nakčiai): jei ryt jam įvykdoma egzekucija, jis išgyvena."
+  },
+  {
+    "id": "assassin",
+    "name": "Galvažudys",
+    "edition": "bmr",
+    "team": "minion",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei Galvažudys dar nepanaudojo savo sugebėjimo: Galvažudys parodo 'no' signalą arba parodo į žaidėją. Tas žaidėjas miršta.",
+    "reminders": [
+      "Dead",
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Karta per žaidimą, naktį*, pasirink žaidėją: jis miršta, net jei negali mirti."
+  },
+  {
+    "id": "mastermind",
+    "name": "Sumanytojas",
+    "edition": "bmr",
+    "team": "minion",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Jei demonas miršta nuo egzekucijos (pabaigdamas žaidimą), žaiskite dar 1 dieną. Jei žaidėjui atliekama egzekucija, jų komanda pralaimi."
+  },
+  {
+    "id": "zombuul",
+    "name": "Zombuulas",
+    "edition": "bmr",
+    "team": "demon",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei niekas nemirė dieną: Zombuulas parodo į žaidėją. Tas žaidėjas miršta.",
+    "reminders": [
+      "Died Today",
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, jei niekas diena nemiršta, pasirink žaidėją: jis miršta. Pirmą kartą kai miršti, išgyveni, tačiau visiems esi fiksuojamas kaip miręs."
+  },
+  {
+    "id": "pukka",
+    "name": "Pukka",
+    "edition": "bmr",
+    "team": "demon",
+    "firstNightReminder": "Pukka parodo į žaidėją: jis yra apnuodytas.",
+    "otherNightReminder": "Pukka parodo į žaidėją: jis yra apnuodytas. Praeitą naktį apnuodytas žaidėjas miršta.",
+    "reminders": [
+      "Poisoned",
+      "Poisoned",
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį, pasirink žaidėją: jis yra apnuodytas. Praeitą naktį apnuodytas žaidėjas miršta ir tampa sveikas."
+  },
+  {
+    "id": "shabaloth",
+    "name": "Šabalotas",
+    "edition": "bmr",
+    "team": "demon",
+    "firstNightReminder": "",
+    "otherNightReminder": "Vienas žaidėjas kurį Šabalotas vakar nužudė gali prisikelti. Šabalotas parodo į 2 žaidėjus: jie miršta.",
+    "reminders": [
+      "Dead",
+      "Dead",
+      "Alive"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, pasirink 2 žaidėjus: jie miršta. Miręs žaidėjai kuriuos pasirinkai Praeitą naktį gali būti atrytas(prisikelti)."
+  },
+  {
+    "id": "po",
+    "name": "Po",
+    "edition": "bmr",
+    "team": "demon",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei Po nepasirinko nieko Praeitą naktį: Po parodo į 3 žaidėjus. Kitu atveju: Po parodo galvos signalą 'no' arba parodo į žaidėją. Pasirinkti žaidėjai miršta.",
+    "reminders": [
+      "Dead",
+      "Dead",
+      "Dead",
+      "3 Attacks"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, pasirenki žaidėją: jis miršta. Jei Praeitą naktį nepasirinkai nieko, šiandien renkiesi 3 žaidėjus: jie miršta."
+  },
+  {
+    "id": "apprentice",
+    "name": "Mokinys",
+    "edition": "bmr",
+    "team": "traveller",
+    "firstNightReminder": "Mokiniui parodyk 'TU ESI' kortelę, tada Miestelėno arba Pakaliko žetoną. Grimuare pakeisk Mokinio žetoną su parinkto personažo žetonu, bei padėk 'Is The Apprentice' markerį šalia personažo žetono.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Is The Apprentice"
+    ],
+    "setup": false,
+    "ability": "Pirmą naktį, gauni Miestelėno sugebėjimą (jei esi Geras) arba Pakaliko sugebėjimą (jei esi Blogas)."
+  },
+  {
+    "id": "matron",
+    "name": "Matrona",
+    "edition": "bmr",
+    "team": "traveller",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną dieną, gali parinkti iki 3 žaidėjų porų susikeisti sėdėjimo vietomis. Žaidėjai negali palikti savo vietų kalbėtis privačiai."
+  },
+  {
+    "id": "judge",
+    "name": "Teisėjas",
+    "edition": "bmr",
+    "team": "traveller",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Kartą per žaidimą, jei žaidėjas yra nominuojamas(ne tu), gali nuspręsti žaidėjui atliekama egzekucija ar ne."
+  },
+  {
+    "id": "voudon",
+    "name": "Vudu",
+    "edition": "bmr",
+    "team": "traveller",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Tik tu ir mirę gali balsuoti. Mirusiems nereikalingas žetonas balsavimui. 50% dauguma nereikalinga."
+  },
+  {
+    "id": "bishop",
+    "name": "Vyskupas",
+    "edition": "bmr",
+    "team": "traveller",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Nominate Good",
+      "Nominate Evil"
+    ],
+    "setup": false,
+    "ability": "Tik pasakotojas gali nominuoti. Bent vienas žaidėjas ir skirtingu komandų turi būti nominuojamas kiekvieną dieną."
+  },
+  {
+    "id": "clockmaker",
+    "name": "Laikrodininkas",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNightReminder": "Parodyk rankų signalą su skaičiais (1, 2, 3, etc.) kiek žingsnių yra tarp Demono ir artimiausio Pakaliko",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Pradedi žinodamas kiek žingsnių nuo Demono yra artimiausiais Pakalikas."
+  },
+  {
+    "id": "dreamer",
+    "name": "Svajotojas",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNightReminder": "Svajotojas parodo į žaidėją. Parodyk 1 gero personažo ir 1 blogo personažo žetoną.; vienas iš jų yra teisingas.",
+    "otherNightReminder": "Svajotojas parodo į žaidėją. Parodyk 1 gero personažo ir 1 blogo personažo žetoną.; vienas iš jų yra teisingas.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną naktį, pasirink žaidėją (ne save arba Keliautoją): tu sužinai 1 gerą ir 1 blogą personažus, iš kurių vienas yra teisingas."
+  },
+  {
+    "id": "snakecharmer",
+    "name": "Gyvačių kerėtojas",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNightReminder": "Gyvačių kerėtojas parodo į žaidėją. Jei tas žaidėjas yra Demonas: Demonas ir Gyvačių kerėtojas apsikeičia personažais bei komandomis. Pažadink abu žaidėjus pranešti apie jų naujus personažus bei komanda. Naujasis Gyvačių kerėtojas yra apnuodytas.",
+    "otherNightReminder": "Gyvačių kerėtojas parodo į žaidėją. Jei tas žaidėjas yra Demonas: Demonas ir Gyvačių kerėtojas apsikeičia personažais bei komandomis. Pažadink abu žaidėjus pranešti apie jų naujus personažus bei komanda. Naujasis Gyvačių kerėtojas yra apnuodytas.",
+    "reminders": [
+      "Poisoned"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį, pasirink gyvą žaidėją: jei pasirinkai Demoną jis su tavimi apsikeičia personažu, komanda ir yra apnuodytas."
+  },
+  {
+    "id": "mathematician",
+    "name": "Matematikas",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNightReminder": "Parodyk rankų signalą skaičiui (0, 1, 2, etc.) kelių žaidėju galios suveikė neteisingai, dėl kitų žaidėjų galių.",
+    "otherNightReminder": "Parodyk rankų signalą skaičiui (0, 1, 2, etc.) kelių žaidėju galios suveikė neteisingai, dėl kitų žaidėjų galių.",
+    "reminders": [
+      "Abnormal",
+      "Abnormal",
+      "Abnormal",
+      "Abnormal",
+      "Abnormal"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį, sužinai kelių žaidėjų sugebėjimai suveikė neteisingai, skaičiuojant nuo aušros, dėl kitų žaidėjų sugebėjimų."
+  },
+  {
+    "id": "flowergirl",
+    "name": "Gėlių mergaitė",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei Demonas šiandien balsavo: Linktelk 'Taip' arba pakratyk galvą 'Ne'. Padėk 'Demon Not Voted' markerį( Pašalink 'Demon Voted' jei toks yra).",
+    "reminders": [
+      "Demon Voted",
+      "Demon Not Voted"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, sužinai ar Demonas šiandien balsavo."
+  },
+  {
+    "id": "towncrier",
+    "name": "Miesto šauklys",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei Pakalikas šiandien nominavo: Linktelk 'Taip' arba pakratyk galvą 'Ne'. Padėk 'Minion Not Nominated' markerį (Pašalink 'Minion Nominated' markerį jei toks yra).",
+    "reminders": [
+      "Minion Nominated",
+      "Pakalikai Not Nominated"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, sužinai ar Pakalikas šiandien nominavo."
+  },
+  {
+    "id": "oracle",
+    "name": "Orakulas",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Parodyk rankų signalą skaičiui (0, 1, 2, etc.) mirusių blogų žaidėjų.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, sužinai kiek negyvų žaidėjų yra blogi."
+  },
+  {
+    "id": "savant",
+    "name": "Savantas",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną dieną, gali aplankyti Pasakotoją sužinoti 2 dalykus privačiai: Vienas yra tiesa, kitas melas."
+  },
+  {
+    "id": "seamstress",
+    "name": "Siuvėja",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNightReminder": "Siuvėja parodo 'no' galvos signalą arba parodo į 2 kitus žaidėjus. Jei Siuvėja pasirinko 2 žaidėjus, linktelk galvą 'Taip' arba pakratyk galvą 'Ne' jei žaidėjai yra toje pačioje komandoje.",
+    "otherNightReminder": "Jei Siuvėja nepanaudojo savo sugebėjimo: Siuvėja parodo 'no' galvos signalą arba parodo į 2 kitus žaidėjus. Jei Siuvėja pasirinko 2 žaidėjus, linktelk galvą 'Taip' arba pakratyk galvą 'Ne' jei žaidėjai yra toje pačioje komandoje.",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Kartą per žaidimą, naktį, pasirink 2 žaidėjus (ne save): sužinai ar jie yra toje pačioje komandoje."
+  },
+  {
+    "id": "philosopher",
+    "name": "Filosofas",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNightReminder": "Filosofas parodo 'no' galvos signalą arba parodo į  gerą personažą iš lapo. Jei pasirinko personą: apsikeičia su nedalyvaujančiu personažu žetonais ir padedamas 'Is The Philosopher' markeris. Jei personažas dalyvauja žaidime, padėk 'drunk' markerį šalia šio žaidėjo.",
+    "otherNightReminder": "Jei Filosofas nepanaudojo savo sugebėjimo: Filosofas parodo 'no' galvos signalą arba parodo į  gerą personažą iš lapo. Jei pasirinko personą: apsikeičia su nedalyvaujančiu personažu žetonais ir padedamas 'Is The Philosopher' markeris. Jei personažas dalyvauja žaidime, padėk 'drunk' markerį šalia šio žaidėjo.",
+    "reminders": [
+      "Drunk",
+      "Is The Philosopher"
+    ],
+    "setup": false,
+    "ability": "Kartą per žaidimą, naktį, pasirink gerą personažą: gauni jo sugebėjimą. Jei šis personažas dalyvauja žaidime, jis yra girtas."
+  },
+  {
+    "id": "artist",
+    "name": "Meninkas",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Kartą per žaidimą, dienos metu, privačiai paklausk Pasakotojo bet kokio Taip/Ne klausimo."
+  },
+  {
+    "id": "juggler",
+    "name": "Žonglierius",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei šiandien buvo Žonglieriaus pirma diena: Parodyk rankų signalą skaičiui (0, 1, 2, etc.) kiek 'Correct' markerių yra. Pašalink markerius.",
+    "reminders": [
+      "Correct",
+      "Correct",
+      "Correct",
+      "Correct",
+      "Correct"
+    ],
+    "setup": false,
+    "ability": "Pirmą savo dieną, viešai spėk 5 žaidėjus ir jų personažus. Tą naktį, sužinosi kiek spėjimų yra teisingi."
+  },
+  {
+    "id": "sage",
+    "name": "Žynys",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei Žynį nužudė Demonas: Parodyk į du žaidėjus,iš kurių vienas yra Demonas.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Jei Demonas tave nužudo, tu sužinai, kad jis yra 1 iš 2 žaidėjų."
+  },
+  {
+    "id": "mutant",
+    "name": "Mutantas",
+    "edition": "snv",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Jei esi \"mad\" apie buvimą Prašalaičiu, tau gali įvykti egzekucija."
+  },
+  {
+    "id": "barber",
+    "name": "Kirpėjas",
+    "edition": "snv",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei Kirpėjas šiandien mirė: Pažadink demoną.parodyk 'ŠIS PERSONAŽAS PASIRINKO TAVE' kortelę, tada Kirpėjo žetoną. Demonas parodo 'no' galvos signalą arba parodo į 2 žaidėjus.Jei pasirenka žaidėjus: Sukeisk jų žetonus vietomis. Pažadink kiekvieną žaidėją ir parodyk 'TU ESI' ir jų naują personažo žetoną.",
+    "reminders": [
+      "Haircuts Tonight"
+    ],
+    "setup": false,
+    "ability": "Jei mirei šiandien ar šiąnakt, Demoans gali pasirinkti 2 žaidėjus (ne kitą Demoną) ir sukeisti jų personažus vietomis."
+  },
+  {
+    "id": "sweetheart",
+    "name": "Meilutis",
+    "edition": "snv",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei šiandien mirei: Pasirink žaidėją, jis yra girtas.",
+    "reminders": [
+      "Drunk"
+    ],
+    "setup": false,
+    "ability": "Kai tu miršti, 1 žaidėjas yra girtas nuo šiandien."
+  },
+  {
+    "id": "klutz",
+    "name": "Kerėpla",
+    "edition": "snv",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kai sužinai kad mirei, viešai pasirink vieną žaidėją: jei jis yra blogas, tavo komanda pralaimi."
+  },
+  {
+    "id": "witch",
+    "name": "Ragana",
+    "edition": "snv",
+    "team": "minion",
+    "firstNightReminder": "Ragana parodo į žaidėją. Jei jis nominuoja rytoj, jis iškart miršta.",
+    "otherNightReminder": "Jei yra daugiau nei 4 žaidėjai: Ragana parodo į žaidėją. Jei jis nominuoja rytoj, jis iškart miršta.",
+    "reminders": [
+      "Cursed"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį, pasirink žaidėją: jei jis nominuoja rytoj, jis miršta. Jei žaidime liko 3 žaidėjai, prarandi šį sugebėjimą."
+  },
+  {
+    "id": "cerenovus",
+    "name": "Mėsėdis",
+    "edition": "snv",
+    "team": "minion",
+    "firstNightReminder": "Mėsėdis parodo į žaidėją ir personažą iš savo lapo. Pažadink tą žaidėją. Parodyk 'ŠIS PERSONAŽAS PASIRINKO TAVE' kortelę ir Mėsėdis žetoną. Parodyk parinkto personažo žetoną. Jei žaidėjas nėra Išprotėjęs vaidindamas tą personažą jam galima įvykti egzekucija.",
+    "otherNightReminder": "Mėsėdis parodo į žaidėją ir personažą iš savo lapo. Pažadink tą žaidėją. Parodyk 'ŠIS PERSONAŽAS PASIRINKO TAVE' kortelę ir Mėsėdis žetoną. Parodyk parinkto personažo žetoną. Jei žaidėjas nėra Išprotėjęs vaidindamas tą personažą jam galima įvykti egzekucija.",
+    "reminders": [
+      "Mad"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį, pasirink 1 žaidėją ir 1 gerą personažą: jis yra Išprotėjęs kad jis yra šis personažas, jei ne jam gali būti atlikta egzekucija."
+  },
+  {
+    "id": "pithag",
+    "name": "Pit-Hag",
+    "edition": "snv",
+    "team": "minion",
+    "firstNightReminder": "",
+    "otherNightReminder": "The Pit-Hag parodo į 1 žaidėją ir 1 personažą lape. Jei šis personažas nedalyvauja žaidime, pažadink žaidėją ir parodyk jam 'TU ESI' kortelę ir naują personažo žetoną. Jei personažas dalyvauja žaidime, niekas neįvyksta.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, pasirink žaidėją ir personažą kuriuo jis tampa (tik jei personažas nedalyvauja žaidime). Jei šiuo būdu sukuriamas Demono žaidėjas, šiąnakt niekas nemiršta."
+  },
+  {
+    "id": "eviltwin",
+    "name": "Blogasis brolis dvynys",
+    "edition": "snv",
+    "team": "minion",
+    "firstNightReminder": "Pažadink Blogąjį broli dvynį ir gerąjį dvynį. Patvirtink. kad abu mato viena kitą. Gerasis dvynys: Parodyk pirštu į blogąjį dvynį ir parodyk jo blogojo žetoną. Blogasis dvynys: Parodyk pirštu į gerąjį dvynį ir parodyk jo gerojo žetoną.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Twin"
+    ],
+    "setup": false,
+    "ability": "Tu ir kitos komandos žaidėjas žinote vienas kitą. Jei geram žaidėjui atliekama egzekucija, blogis laimi. Gėris negali laimėti jei abu dvyniai gyvi."
+  },
+  {
+    "id": "fanggu",
+    "name": "Fang Gu",
+    "edition": "snv",
+    "team": "demon",
+    "firstNightReminder": "",
+    "otherNightReminder": "Fang Gu parodo į žaidėją. Tas žaidėjas miršta. Jei nurodytas žaidėjas yra Prašalaitis ir nėra kito Fang Gu žaidime: Fang Gu miršta vietoje jo. Šis žaidėjas tampa naujuoju Fang Gu. Pažadink naująjį Fang Gu. Parodyk jam 'TU ESI' kortele, tada Fang Gu žetoną. Parodyk jam 'TU ESI', tada rankos ženklą nykštį žemyn 'Blogas'.",
+    "reminders": [
+      "Dead",
+      "Once"
+    ],
+    "setup": true,
+    "ability": "Kiekvieną naktį*, pasirink žaidėją: jis miršta. Pirmasis taip miręs prašalaitis tampa blogasis Fang Gu ir tu miršti vietoje jo. [+1 Prašalaitis]"
+  },
+  {
+    "id": "vigormortis",
+    "name": "Vigormortis",
+    "edition": "snv",
+    "team": "demon",
+    "firstNightReminder": "",
+    "otherNightReminder": "Vigormortis parodo į žaidėją. Tas žaidėjas miršta. Jei parodai į Pakaliką, jis miršta tačiau jam lieka jo sugebėjimas ir jo kaimynas tampa apnuodytas.",
+    "reminders": [
+      "Dead",
+      "Has Ability",
+      "Poisoned",
+      "Has Ability",
+      "Poisoned",
+      "Has Ability",
+      "Poisoned"
+    ],
+    "setup": true,
+    "ability": "Kiekvieną naktį*, pasirink žaidėją: jis miršta. Pakalikai kuriuos taip nužudai, pasilieka savo sugebėjimą ir apnuodija 1 savo kaimyną [−1 Prašalaitis]."
+  },
+  {
+    "id": "nodashii",
+    "name": "No Dashii",
+    "edition": "snv",
+    "team": "demon",
+    "firstNightReminder": "",
+    "otherNightReminder": "No Dashii parodo į žaidėją. Tas žaidėjas miršta.",
+    "reminders": [
+      "Dead",
+      "Poisoned",
+      "Poisoned"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, pasirink žaidėją: jis miršta. Tavo 2 kaimynai yra apnuodyti."
+  },
+  {
+    "id": "vortox",
+    "name": "Sukūrys",
+    "edition": "snv",
+    "team": "demon",
+    "firstNightReminder": "",
+    "otherNightReminder": "The Sukūrys parodo į žaidėją. Tas žaidėjas miršta.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, pasirink žaidėją: jis miršta. Miestiečių gaunama informacija yra klaidinga. Kiekvieną dieną, jei niekam neatliekama egzekucija, blogis laimi."
+  },
+  {
+    "id": "barista",
+    "name": "Barista",
+    "edition": "snv",
+    "team": "traveller",
+    "firstNightReminder": "Pasirink žaidėją ir pasakyk kuris Baristos sugebėjimas veikia jį. Elkis su juo atitinkamai (blaivus/sveikas/tiesa arba jo sugebėjimas suveikia 2 kartus).",
+    "otherNightReminder": "Pasirink žaidėją ir pasakyk kuris Baristos sugebėjimas veikia jį. Elkis su juo atitinkamai (blaivus/sveikas/tiesa arba jo sugebėjimas suveikia 2 kartus).",
+    "reminders": [
+      "Sober & Healthy",
+      "Acts Twice",
+      "?",
+      "?"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį, iki ryto, 1) Žaidėjas tampa blaivus, sveikas ir gauna teisinga informaciją, arba 2) Jų sugebėjimas suveikia 2 kartus. Sužinai 1 ar 2."
+  },
+  {
+    "id": "harlot",
+    "name": "Paleistuvė",
+    "edition": "snv",
+    "team": "traveller",
+    "firstNightReminder": "",
+    "otherNightReminder": "Paleistuvė parodo į bet kurį žaidėją. Tada užmigdyk Paleistuvę. Pažadink pasirinktą žaidėją. Parodyk jam 'ŠIS PERSONAŽAS PASIRINKO TAVE' kortą ir Paleistuvės personažo žetoną. Žaidėjas  sutinka (galvos linktelėjimas) arba ne (galvos pakratimas). Jei žaidėjas sutiko, pažadink Paleistuvę ir parodyk pasirinkto žaidėjo personažą. Tada gali nuspręsti ar abu žaidėjai miršta.",
+    "reminders": [
+      "Dead",
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, pasirink gyvą žaidėją: jei jis sutinka, sužinai jo personažą, bet jūs abu galite mirti."
+  },
+  {
+    "id": "butcher",
+    "name": "Mėsininkas",
+    "edition": "snv",
+    "team": "traveller",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną dieną, po pirmos egzekucijos, gali nominuoti dar kartą."
+  },
+  {
+    "id": "deviant",
+    "name": "Kitoks",
+    "edition": "snv",
+    "team": "traveller",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Jei šiandien buvai linksmas, negali mirti arba būti ištremtas."
+  },
+  {
+    "id": "bonecollector",
+    "name": "Kaulų kolekcionierius",
+    "edition": "snv",
+    "team": "traveller",
+    "firstNightReminder": "",
+    "otherNightReminder": "Kaulų kolekcionierius pakrato galvą (ne) arba parodo į mirusį žaidėją. Jei jis parodė į mirusį žaidėją: pašalink nuo Kaulų kolekcionieriaus 'Has Ability' markerį. Žaidėjo personažas turi sugebėjimą veikiantį naktį: Pakelti žaidėją. Leisti panaudoti savo sugebėjimą.",
+    "reminders": [
+      "No Ability",
+      "Has Ability"
+    ],
+    "setup": false,
+    "ability": "Kartą per žaidimą, naktį*, pasirink mirusį žaidėją: jis atgauna savo sugebėjimus iki ryto."
+  },
+  {
+    "id": "steward",
+    "name": "Stiuardas",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Pirštu parodyk į pažymėtą žaidėją.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Know"
+    ],
+    "setup": false,
+    "ability": "Pradedi žaidimą žinodamas 1 gerą žaidėją."
+  },
+  {
+    "id": "knight",
+    "name": "Riteris",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Pirštu parodyk į 2 pažymėtus žaidėjus.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Know",
+      "Know"
+    ],
+    "setup": false,
+    "ability": "Pradedi žaidimą žinodamas 2 žaidėjus kurie nėra Demonas."
+  },
+  {
+    "id": "noble",
+    "name": "Kilmingasis",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Parodyk į 3 žaidėjus iš kurių vienas yra blogas. Eiliškumas nesvarbus.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Know",
+      "Know",
+      "Know"
+    ],
+    "setup": false,
+    "ability": "Pradedi žaidimą žinodamas 3 žaidėjus, iš kurių 1 yra blogas."
+  },
+  {
+    "id": "shugenja",
+    "name": "Shugenja",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Pirštu (braukdamas horizontaliai) parodyk į tą pusę kurioje artimiausias blogas žaidėjas. Jei atstumas lygus, parodyk į bet kurią pusę.",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Pradedi žaidimą žinodamas kad artimiausias blogas žaidėjas yra prieš/palei laikrodžio rodyklę. Jei atstumas lygus, informacija neturi reikšmės."
+  },
+  {
+    "id": "bountyhunter",
+    "name": "Premijų medžiotojas",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Parodyk pirštu į 1 blogą žaidėją. Pažadink 1 Miestietį. Parodyk jam 'TU ESI' kortą ir nykštį žemyn (blogas).",
+    "otherNightReminder": "Jei žinomas blogas žaidėjas miršta. Pirštu parodyk kitą blogą žaidėją.",
+    "reminders": [
+      "Known"
+    ],
+    "setup": false,
+    "ability": "Pradedi žaidimą žinodamas 1 blogą žaidėją. Jei tavo žinomas žaidėjas miršta, šiąnakt sužinosi dar vieną blogą žaidėją. [1 Miestietis yra blogas]"
+  },
+  {
+    "id": "pixie",
+    "name": "Fėja",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Parodyk Fėjai, 1 žaidime dalyvaujančio Miestiečio žetoną.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Mad",
+      "Has Ability"
+    ],
+    "setup": false,
+    "ability": "Pradedi žaidimą žinodamas 1 žaidime dalyvaujantį Miestietį. Jei vaidinai 'išprotėjusį', kad esi šis personažas, tu gauni to personažo sugebėjimą kai jis miršta."
+  },
+  {
+    "id": "highpriestess",
+    "name": "Vyriausioji Žynė",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Pirštu parodyk į žaidėją.",
+    "otherNightReminder": "Pirštu parodyk į žaidėją.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną naktį, sužinai su kuriuo žaidėju tau labiausiai verta pasikalbėti (Pasakotojo manymu)."
+  },
+  {
+    "id": "balloonist",
+    "name": "Balloonist",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Pasirink žaidėjo tipą. Parodyk pirštu į žaidėją. Pažymėk žaidėją 'Know' markeriu.",
+    "otherNightReminder": "Pasirink kitą žaidėją kurio tipas dar neturi 'Know' markerio. Parodyk pirštu į žaidėją. Pažymėk žaidėją 'Know' markeriu.",
+    "reminders": [
+      "Know"
+    ],
+    "setup": true,
+    "ability": "Kiekvieną naktį, sužinai skirtingo tipo (Miestietis/Prašalaitis/Pakalikas/Demonas) žaidėją nei praeitą naktį. [+0 or +1 Prašalaitis]"
+  },
+  {
+    "id": "general",
+    "name": "Generolas",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Parodyk Generolui nykštys į viršų jei gėris laimi, nykštys į jei blogis laimi ar nykštys per vidurį jei lygiosios.",
+    "otherNightReminder": "Parodyk Generolui nykštys į viršų jei gėris laimi, nykštys į jei blogis laimi ar nykštys per vidurį jei lygiosios.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną naktį, sužinai kuri komanda laimi (Pasakotojo manymu): gėris,blogis, lygiosios."
+  },
+  {
+    "id": "preacher",
+    "name": "Pamokslininkas",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Pamokslininkas pasirink žaidėją. Jei pasirinktas Pakalikas: Pažadink Pakaliką ir parodyk 'ŠIS PERSONAŽAS PASIRINKO TAVE' kortą ir tada Pamokslininko žetoną. Prie Pakaliko padėk 'No Ability' markerį.",
+    "otherNightReminder": "Pamokslininkas pasirink žaidėją. Jei pasirinktas Pakalikas: Pažadink Pakaliką ir parodyk 'ŠIS PERSONAŽAS PASIRINKO TAVE' kortą ir tada Pamokslininko žetoną. Prie Pakaliko padėk 'No Ability' markerį.",
+    "reminders": [
+      "No Ability",
+      "No Ability",
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį, pasirink žaidėją: jei pasirinkai Pakaliką, jis apie tai sužino. Visi pasirinkti pakalikai netenka savo sugebėjimų."
+  },
+  {
+    "id": "villageidiot",
+    "name": "Kaimo kvailelis",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Kaimo kvailelis parodo į žaidėją: nykštys į viršų jei geras, nykštys žemyn jei blogas.",
+    "otherNightReminder": "Kaimo kvailelis parodo į žaidėją: nykštys į viršų jei geras, nykštys žemyn jei blogas.",
+    "reminders": [
+      "Drunk"
+    ],
+    "setup": true,
+    "ability": "Kiekvieną naktį, pasirink žaidėją: sužinai jo komandą. [+0 iki +2 Kaimo kvailelių. 1 iš papildomų Kaimo kvailelių yra Girtas]"
+  },
+  {
+    "id": "king",
+    "name": "Karalius",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Pažadink Demoną, parodyk jam 'ŠIS PERSONAŽAS YRA ŽAIDIME' kortą. Parodyk Karaliaus žetoną. Pirštu parodyk į karaliaus žaidėją.",
+    "otherNightReminder": "Jei mirusių žaidėjų yra daugiau arba lygu gyvų žaidėjų skaičiui: parodyk Karaliui gyvo žaidėjo personažą.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną naktį, jei mirusių žaidėjų skaičius yra daugiau arba lygu gyvų žaidėjų skaičiui, tu sužinai 1 gyvą žaidime dalyvaujantį personažą. Demonas žino jog tu esi Karalius."
+  },
+  {
+    "id": "cultleader",
+    "name": "Kulto lyderis",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Gali pakeisti Kulto lyderio komanda kad sutaptu su jo kaimyninio žaidėjo. Jei taip: Pažadink jį. Parodyk jam: TU ESI GERAS arba TU ESI BLOGAS .",
+    "otherNightReminder": "Gali pakeisti Kulto lyderio komanda kad sutaptu su jo kaimyninio žaidėjo. Jei taip: Pažadink jį. Parodyk jam: TU ESI GERAS arba TU ESI BLOGAS .",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną naktį, tu pereini į tą komandą kuriai priklauso tavo kaimynas. Jei visi gyvi Geri žaidėjai sutinka įstoti į tavo kultą, tavo komanda laimi."
+  },
+  {
+    "id": "acrobat",
+    "name": "Akrobatas",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Akrobatas parodo į žaidėją. Jei tas žaidėjas šiąnakt yra ar tampa girtas ar apnuodytas: Akrobatas miršta.",
+    "reminders": [
+      "Chosen",
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, pasirink žaidėją: jei jis yra ar tampa girtas ar apnuodytas, tu miršti."
+  },
+  {
+    "id": "lycanthrope",
+    "name": "Likantropas",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Likantropas parodo į gyvą žaidėją: jei žaidėjas geras, jis miršta ir Demonas šiąnakt nieko nežudo.",
+    "reminders": [
+      "Faux Paw",
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, pasirink gyvą žaidėją. jei žaidėjas geras, jis miršta ir demonas šią naktį nieko nežudo. Vienas geras žaidėjas atpažįstamas kaip blogas."
+  },
+  {
+    "id": "alsaahir",
+    "name": "Alsaahir",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną dieną, jei viešai atspėji kurie žaidėjai yra Pakalikai ir kuris(ie) yra Demonas, gėris laimi."
+  },
+  {
+    "id": "engineer",
+    "name": "Inžinierius",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Inžinierius parodo 'no' galvos signalą arba parodo į Demono arba tinkamą Pakalikų skaičių. Jei Inžinierius pasirinko personažą: pakeisk Demoną ar Pakalikus parinktais. Pažadink reikiamą Demoną ar Pakalikus. Parodyk jiems 'TU ESI' kortą ir naują personažo žetoną.",
+    "otherNightReminder": "Inžinierius parodo 'no' galvos signalą arba parodo į Demono arba tinkamą Pakalikų skaičių. Jei Inžinierius pasirinko personažą: pakeisk Demoną ar Pakalikus parinktais. Pažadink reikiamą Demoną ar Pakalikus. Parodyk jiems 'TU ESI' kortą ir naują personažo žetoną.",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Kartą per žaidimą, naktį, pasirink kurie Pakalikai arba Demonas dalyvauja žaidime."
+  },
+  {
+    "id": "nightwatchman",
+    "name": "Naktinis sargas",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Naktinis sargas gali pirštu parodyk į žaidėją. Pažadink tą žaidėją. Parodyk 'ŠIS PERSONAŽAS PASIRINKO TAVE' kortą ir Naktinio sargo žetoną, tada Pirštu parodyk į Naktinio sargo žaidėją.",
+    "otherNightReminder": "Naktinis sargas gali pirštu parodyk į žaidėją. Pažadink tą žaidėją. Parodyk 'ŠIS PERSONAŽAS PASIRINKO TAVE' kortą ir Naktinio sargo žetoną, tada Pirštu parodyk į Naktinio sargo žaidėją.",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Kartą per žaidimą, naktį, pasirink žaidėją: jis sužino, kad esi Naktinis sargas."
+  },
+  {
+    "id": "huntsman",
+    "name": "Medžiotojas",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Medžiotojas pakrato savo galvą 'no' arba parodo į žaidėją. Jei pirštu parodo į Mergelė, pažadink tą žaidėją. Parodyk jam 'TU ESI' kortą ir žaidime nedalyvaujančio personažo žetoną.",
+    "otherNightReminder": "Medžiotojas pakrato savo galvą 'no' arba parodo į žaidėją. Jei pirštu parodo į Mergelė, pažadink tą žaidėją. Parodyk jam 'TU ESI' kortą ir žaidime nedalyvaujančio personažo žetoną.",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": true,
+    "ability": "Kartą per žaidimą, naktį, pasirink gyvą žaidėją: jei pasirinkta Mergelė, ji tampa žaidime nedalyvaujančiu Miestiečiu. [+ Mergelė]"
+  },
+  {
+    "id": "fisherman",
+    "name": "Žvejys",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Kartą per žaidimą, dienos metu, aplankyk Pasakotoją patarimui kaip jūsų komandai laimėti."
+  },
+  {
+    "id": "princess",
+    "name": "Princesė",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei šiandien buvo pirma Princesės diena, ji nominavo ir tam žaidėjui buvo atlikta egzekucija, šiąnakt Demonas nežudo.",
+    "reminders": [
+      "Doesn't Kill"
+    ],
+    "setup": false,
+    "ability": "Pirmą savo dieną, jei nominuoji ir žaidėjui atliekama egzekucija, Demonas šią naktį nieko nežudo."
+  },
+  {
+    "id": "alchemist",
+    "name": "Alchemikas",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Parodyk Alchemikui Pakaliko žetoną, sugebėjimo kurį jis turės.",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Is The Alchemist"
+    ],
+    "setup": false,
+    "ability": "Tu turi Pakaliko sugebėjimą. Kai naudoji šį sugebėjimą, Pasakotojas gali paprašyti pasirinkti kitaip."
+  },
+  {
+    "id": "cannibal",
+    "name": "Kanibalas",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Pažymėk paskutini žaidėją mirusį nuo egzekucijos 'Lunch' žetonu. Jei jis buvo geras, kanibalas gauna jo sugebėjimą. Jei jis buvo blogas, pažymėk Kanibalą 'Poisoned'. Pasakotojas gali apsimesti, kad tu turi sugebėjimą.",
+    "reminders": [
+      "Poisoned",
+      "Lunch"
+    ],
+    "setup": false,
+    "ability": "Tu turi sugebėjimą paskutinio žaidėjo mirusio nuo egzekucijos. Jei jis yra blogas, tu esi apnuodytas iki kol geram žaidėjui bus atlikta egzekucija."
+  },
+  {
+    "id": "amnesiac",
+    "name": "Kapitonas Amnezija",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Nuspręsk Kapitonas Amnezija sugebėjimą. Jei Kapitonas Amnezijos sugebėjimas suveikia naktį: pažadink Kapitonas Amnezija panaudoti savo sugebėjimą.",
+    "otherNightReminder": "Jei Kapitonas Amnezijos sugebėjimas suveikia naktį: pažadink Kapitonas Amnezija panaudoti savo sugebėjimą.",
+    "reminders": [
+      "?",
+      "?",
+      "?"
+    ],
+    "setup": false,
+    "ability": "Tu nepameni kokį turi sugebėjimą. Kiekvieną dieną, privačiai spėk koks tavo sugebėjimas: sužinai kiek teisingai atspėjai (šalta/šilta/karšta)."
+  },
+  {
+    "id": "farmer",
+    "name": "Fermeris",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei šiąnakt mirė Fermeris: pasirink gerą žaidėją. Jis tampa Fermeriu. Pažadink žaidėją, parodyk jam 'TU ESI' kortą ir Fermerio personažo žetoną.",
+    "reminders": [],
+    "setup": false,
+    "ability": "kai miršti naktį, gyvas Geras žaidėjas tampa Fermeriu."
+  },
+  {
+    "id": "choirboy",
+    "name": "Choro berniukas",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei Demonas nužudė Karalių, pažadink Choro berniuką ir pirštu parodyk į Demono žaidėją.",
+    "reminders": [],
+    "setup": true,
+    "ability": "Jei Demonas nužudo Karalių, tu sužinai kuris žaidėjas yra Demonas. [+ Karalius]"
+  },
+  {
+    "id": "banshee",
+    "name": "Banšė",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "Jei Demonas nužudė Banše, viešai pranešk kad Banšė mirė.",
+    "reminders": [
+      "Has Ability"
+    ],
+    "setup": false,
+    "ability": "Jei Demonas tave nužudė, visi žaidėjai apie tai sužino. Nuo dabar, tu gali nominuoti du kartus per dieną ir balsuoti 2 kartus per nominaciją."
+  },
+  {
+    "id": "magician",
+    "name": "Fokusininkas",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Demonas galvoja kad esi Pakalikas. Pakalikai galvoja, kad esi Demonas."
+  },
+  {
+    "id": "poppygrower",
+    "name": "Aguonų augintojas",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "Neinformuok Demono/Pakalikų kas yra kas",
+    "otherNightReminder": "Jei Aguonų augintojas mirė informuok Demoną/Pakalikus kas yra kas.",
+    "reminders": [
+      "Evil Wakes"
+    ],
+    "setup": false,
+    "ability": "Pakalikai ir demonai nežino vienas kito. Jei miršti, jie sužino vieni kitus ateinančia naktį."
+  },
+  {
+    "id": "atheist",
+    "name": "Ateistas",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": "Pasakotojas gali laužyti žaidimo taisykles.Jei tau atlieka egzekucija,net jei esi mires, gėris laimi. [Nėra blogų personažų]"
+  },
+  {
+    "id": "hermit",
+    "name": "Atsiskyrėlis",
+    "edition": "",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "1",
+      "2",
+      "3"
+    ],
+    "setup": true,
+    "ability": "Tu turi visų Prašalaičių sugebėjimus. [-0 ar -1 Prašalaičiai]"
+  },
+  {
+    "id": "ogre",
+    "name": "Ogras",
+    "edition": "",
+    "team": "outsider",
+    "firstNightReminder": "Ogras parodo į žaidėją (ne save) tampa jo komandos narys.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Friend"
+    ],
+    "setup": false,
+    "ability": "Pirmą naktį, pasirink žaidėją (ne save): tampi jo komandos narys (nežinai kurios komandos) net jei esi girtas ar apnuodytas."
+  },
+  {
+    "id": "golem",
+    "name": "Golemas",
+    "edition": "",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "May Not Nominate"
+    ],
+    "setup": false,
+    "ability": "Tu gali nominuoti tik 1 kartą per žaidimą. Jei nominuoji ne Demoną, jis miršta."
+  },
+  {
+    "id": "plaguedoctor",
+    "name": "Maro gydytojas",
+    "edition": "",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Storyteller Ability"
+    ],
+    "setup": false,
+    "ability": "Kai miršti, Pasakotojas gauna Pakaliko sugebėjimą."
+  },
+  {
+    "id": "hatter",
+    "name": "Skrybėlininkas",
+    "edition": "",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "Pažadink Pakalikus ir Demonus. Kiekvienas pakeltas žaidėjas pakrato savo galvą 'no' arba parodo į kitą personažą tos pačios klasės kaip buvo prieš tai. Jei antras žaidėjas bandytu tapti tokiu pat personažu koks jau yra pakratyk savo galvą. Pakeisk visus žaidėjus pagal naujus personažus kuriuos pasirinko.",
+    "reminders": [
+      "Tea Party Tonight"
+    ],
+    "setup": false,
+    "ability": "Jei mirei šiandien ar šiąnakt, Pakalikai ir Demonas gali pasirinkti naują Demono personažą ir naują Pakalikų personažus."
+  },
+  {
+    "id": "politician",
+    "name": "Politikas",
+    "edition": "",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Jei buvai daugiausiai prisidėjęs prie savo komandos pralaimėjimo, pakeiti savo komanda ir laimi, net jei esi miręs."
+  },
+  {
+    "id": "zealot",
+    "name": "Fanatikas",
+    "edition": "",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Jei gyvi 5 ar daugiau žaidėjų, turi balsuoti per visas nominacijas."
+  },
+  {
+    "id": "damsel",
+    "name": "Mergelė",
+    "edition": "",
+    "team": "outsider",
+    "firstNightReminder": "Pažadink visus pakalikus, parodyk jiems 'ŠIS PERSONAŽAS YRA ŽAIDIME' kortą ir tada Mergelė žetoną.",
+    "otherNightReminder": "Jei Medžiotojas pasirenka Mergelę, pažadink Mergelės žaidėją, parodyk 'TU ESI' kortą ir žaidime nedalyvaujančio Miestiečio žetoną.",
+    "reminders": [
+      "Guess Used"
+    ],
+    "setup": false,
+    "ability": "Visi pakalikai žino jog Mergelė dalyvauja žaidime. Jei pakalikas viešai tave atspėja (1 kartą), tavo komanda pralaimi."
+  },
+  {
+    "id": "snitch",
+    "name": "Skundikas",
+    "edition": "",
+    "team": "outsider",
+    "firstNightReminder": "Po Pakalikų informavimo, pažadink kiekvieną pakaliką ir parodyk jam 3 žaidime nedalyvaujančius personažus. Personažai gali būti vienodi arba visiems skirtingi.",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvienas Pakalikas gauna 3 blefus."
+  },
+  {
+    "id": "heretic",
+    "name": "Heretikas",
+    "edition": "",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Ta komanda kuri laimi - pralaimi. Net jei tu esi miręs."
+  },
+  {
+    "id": "puzzlemaster",
+    "name": "Dėlionių meistras",
+    "edition": "",
+    "team": "outsider",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Drunk",
+      "Guess Used"
+    ],
+    "setup": false,
+    "ability": "1 žaidėjas yra Girtas, net jei tu miršti. Gali bandyti spėti kuris (vieną kartą). Jei atspėjai - sužinai kas yra Demonas. Jei ne - gauni neteisingą informaciją."
+  },
+  {
+    "id": "mezepheles",
+    "name": "Mezefelis",
+    "edition": "",
+    "team": "minion",
+    "firstNightReminder": "Parodyk Mezefeliui slaptažodį.",
+    "otherNightReminder": "Pažadink (pirmą kartą) žaidėją kuris ištarė Mezefelio slaptažodį. Parodyk jam TU ESI BLOGAS kortą ir nykštys į apačia (blogio ženklas).",
+    "reminders": [
+      "Turns Evil",
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Pradedi žaidimą žinodamas slaptažodį. 1 geras žaidėjas ištaręs tą žodį, naktį tampa blogu."
+  },
+  {
+    "id": "harpy",
+    "name": "Harpija",
+    "edition": "",
+    "team": "minion",
+    "firstNightReminder": "Harpija parodo į du žaidėjus. Pažadink 1-ąjį žaidėją į kurį parodė Harpija. Parodyk 'ŠIS PERSONAŽAS PASIRINKO TAVE' kortą, parodyk Harpijos žetoną, tada parodyk į 2-ąjį žaidėją kurį Harpija parodė.",
+    "otherNightReminder": "Harpija parodo į du žaidėjus. Pažadink 1-ąjį žaidėją į kurį parodė Harpija. Parodyk 'ŠIS PERSONAŽAS PASIRINKO TAVE' kortą, parodyk Harpijos žetoną, tada parodyk į 2-ąjį žaidėją kurį Harpija parodė.",
+    "reminders": [
+      "Mad",
+      "2nd"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį, pasirink 2 žaidėjus: rytoj, 1 žaidėjas yra Išprotėjęs' jog 2 yra blogas. Vienas iš jų arba abu gali mirti."
+  },
+  {
+    "id": "fearmonger",
+    "name": "Baimės kurstytojas",
+    "edition": "",
+    "team": "minion",
+    "firstNightReminder": "Baimės kurstytojas parodo į žaidėją. Padėk 'Fear' markerį šalia šio žaidėjo ir pranešk, kad naujas žaidėjas buvo pasirinktas Baimės kurstytojo sugebėjimui.",
+    "otherNightReminder": "Baimės kurstytojas parodo į žaidėją. Padėk 'Fear' markerį šalia šio žaidėjo ir pranešk, kad naujas žaidėjas buvo pasirinktas Baimės kurstytojo sugebėjimui.",
+    "reminders": [
+      "Fear"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį, pasirink žaidėją: jei tu nominuoji ir jam atliekama egzekucija, jo komanda pralaimi. Visi žaidėjai žino jei tu pasirinkai naują žaidėją."
+  },
+  {
+    "id": "psychopath",
+    "name": "Psichopatas",
+    "edition": "",
+    "team": "minion",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kiekvieną dieną, prieš nominaciją, gali viešai pasirinkti žaidėją: jis miršta. Jei psichopatui atlikta egzekucija, tu miršti tik tada jei pralošei 'Vaski vaski' žaidimą."
+  },
+  {
+    "id": "wizard",
+    "name": "Burtininkas",
+    "edition": "",
+    "team": "minion",
+    "firstNightReminder": "Jei Burtininko noras reikalauja veiksmų naktį, atlikite šiuos veiksmus.",
+    "otherNightReminder": "Jei Burtininko noras reikalauja veiksmų naktį, atlikite šiuos veiksmus.",
+    "reminders": [
+      "?",
+      "?"
+    ],
+    "setup": false,
+    "ability": "Kartą per žaidimą, sugalvok norą. Jei noras yra išpildomas, gali tekti už tai sumokėti (bus palikta užuominų kaip tai padaryti)."
+  },
+  {
+    "id": "widow",
+    "name": "Našlė",
+    "edition": "",
+    "team": "minion",
+    "firstNightReminder": "Našlei parodyk Grimuarą. Našlė parodo į žaidėją. Jis yra apnuodytas. Pažadink 1 gerą žaidėją ir parodyk  ŠIS PERSONAŽAS YRA ŽAIDIME kortą bei Našlės žetoną.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Poisoned",
+      "Knows"
+    ],
+    "setup": false,
+    "ability": "Pirmą savo naktį, pažiūrėk į Grimuarą ir pasirink žaidėją: jis yra apnuodytas. 1 geras žaidėjas žino jog Našlė dalyvauja žaidime."
+  },
+  {
+    "id": "xaan",
+    "name": "Chanas",
+    "edition": "",
+    "team": "minion",
+    "firstNightReminder": "Pridėk Chano 'Night 1' markerį į Grimuarą. Jei X yra 1 , padėk X markerį.",
+    "otherNightReminder": "Pakeisk Chano nakties markerį tinkamą pagal nakties numerį. Jei šiandien yra X naktis, padėk X markerį.",
+    "reminders": [
+      "Night 1",
+      "Night 2",
+      "Night 3",
+      "X"
+    ],
+    "setup": true,
+    "ability": "X naktį, visi Miestiečiai yra apnuodyti iki ryto. [X Prašalaičių]"
+  },
+  {
+    "id": "marionette",
+    "name": "Marionetė",
+    "edition": "",
+    "team": "minion",
+    "firstNightReminder": "Pasirink vieną iš žaidėjų sėdinčių šalia Demono. Padėk 'Is The Marionette' markerį.Pažadink demoną. Parodyk jam kortą ŠIS ŽAIDĖJAS YRA ir pirštu į marionetės žaidėją.",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Is The Marionette"
+    ],
+    "setup": true,
+    "ability": "Tu galvoji jog esi geras personažas, bet toks nesi. Demonas žino jog esi Marionetė [Tu sėdi šalia Demono]."
+  },
+  {
+    "id": "wraith",
+    "name": "Vaiduoklis",
+    "edition": "",
+    "team": "minion",
+    "firstNightReminder": "SVARBU. Pažadink Vaiduoklį kiekvieną kartą, kai blogas žaidėjas pabunda.",
+    "otherNightReminder": "SVARBU. Pažadink Vaiduoklį kiekvieną kartą, kai blogas žaidėjas pabunda.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Naktį gali bet kuriuo metu atmerkti akis. Tu pabundi kiekvieną kartą, kai blogas žaidėjas pabunda."
+  },
+  {
+    "id": "summoner",
+    "name": "Šauklys",
+    "edition": "",
+    "team": "minion",
+    "firstNightReminder": "Parodyk 'ŠIE PERSONAŽAI NEDALYVAUJA ŽAIDIME' kortą. Parodyk 3 gerų personažų žetonus, kurie nedalyvauja žaidime.",
+    "otherNightReminder": "Jei tai yra 3-čioji naktis, pažadink Šauklį. Jis parodo į žaidėją ir demoną iš lapo. Tas žaidėjas tampa nurodytu Demonu.",
+    "reminders": [
+      "Night 1",
+      "Night 2",
+      "Night 3"
+    ],
+    "setup": true,
+    "ability": "Tu gauni 3 blefus. Trečiąją naktį, pasirenki žaidėją: jis tampa tavo pasirinktu demonu [Nėra Demono]."
+  },
+  {
+    "id": "goblin",
+    "name": "Goblinas",
+    "edition": "",
+    "team": "minion",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Claimed"
+    ],
+    "setup": false,
+    "ability": "Jei viešai tvirtini kad esi Goblinas ir tą dieną tave nominuoja ir tau atliekama egzekucija, tavo komanda Laimi."
+  },
+  {
+    "id": "boomdandy",
+    "name": "Sprogdintojas",
+    "edition": "",
+    "team": "minion",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "jei tau atliekama egzekucija, lieka gyvi 3 žaidėjai. Po skaičiavimo nuo 10 iki 1, žaidėjas į kurį daugiausiai rodoma pirštų miršta."
+  },
+  {
+    "id": "vizier",
+    "name": "Viziris",
+    "edition": "",
+    "team": "minion",
+    "firstNightReminder": "Pranešk apie vizirio žaidėją.",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Visi žaidėjai žino jog TU ESI Viziris. Tu negali mirti dienos metu. Jei bent 1 geras žaidėjas balsavo, gali nuspręsti atlikti egzekuciją."
+  },
+  {
+    "id": "organgrinder",
+    "name": "Organų malūnėlis",
+    "edition": "",
+    "team": "minion",
+    "firstNightReminder": "Pažadink Organų malūnėlis. Jei jis duoda TAIP galvos signalą, pažymėk jį 'Drunk' markeriu. Jei 'NE' pašalink 'Drunk' markerį.",
+    "otherNightReminder": "Pažadink Organų malūnėlis. Jei jis duoda TAIP galvos signalą, pažymėk jį 'Drunk' markeriu. Jei 'NE' pašalink 'Drunk' markerį.",
+    "reminders": [
+      "About To Die",
+      "Drunk"
+    ],
+    "setup": false,
+    "ability": "Visi žaidėjai turi užsimerkti kai vyksta balsavimas. Kiekvieną naktį pasirink ar TU ESI girtas iki sutemų."
+  },
+  {
+    "id": "boffin",
+    "name": "Boffinas",
+    "edition": "",
+    "team": "minion",
+    "firstNightReminder": "Pažadink Boffiną ir parodyk jam gero personažo žetoną, kurio sugebėjimą turės Demonas. Užmigdyk Boffiną. Pažadink Demoną ir parodyk jam Boffino žetoną ir tada gero personažo žetoną.",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Demonas (net jei yra girtas ar apnuodytas) turi gero, žaidime nedalyvaujančio personažo sugebėjimą. Jūs abu žinote kurio."
+  },
+  {
+    "id": "yaggababble",
+    "name": "Yaggababble",
+    "edition": "",
+    "team": "demon",
+    "firstNightReminder": "Parodyk Yaggababble jo slaptą frazę.",
+    "otherNightReminder": "Pasirink žaidėją pagal tai kiek kartų Yaggababble pasakė slaptą frazę. Tiek žaidėjų gali naktį mirti.",
+    "reminders": [
+      "Dead",
+      "Dead",
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "Pradedi žaidimą žinodamas a slaptą frazę. Už kiekvieną kartą pasakius šią frazę viešai. Nakti gali mirti žaidėjas."
+  },
+  {
+    "id": "lilmonsta",
+    "name": "Mažoji Pabaisa",
+    "edition": "",
+    "team": "demon",
+    "firstNightReminder": "Pažadink visus Pakalikus vienu metu. Leisk jiems balsuoti rodant pirštu vienas į kitą kas saugos Mažąją Pabaisą.",
+    "otherNightReminder": "Pažadink visus Pakalikus vienu metu. Leisk jiems balsuoti rodant pirštu vienas į kitą kas saugos Mažąją Pabaisą. Pasakotojas gali pasirinkti žaidėją, jis miršta.",
+    "reminders": [],
+    "remindersGlobal": [
+      "Is The Demon",
+      "Dead"
+    ],
+    "setup": true,
+    "ability": "Kiekvieną naktį, Pakalikai pasirenka kuris iš jų saugo Mažąją Pabaisą ir tampa demonu. Kiekvieną naktį*, žaidėjas gali mirti. [+1 Pakalikas]"
+  },
+  {
+    "id": "kazali",
+    "name": "Kazalis",
+    "edition": "",
+    "team": "demon",
+    "firstNightReminder": "Kazalis parodo į žaidėją ir pakaliką iš lapo. Jis tai gali daryti tiek kartų kiek pakalikų tūrėtu būti žaidime. Pakeisk tų žaidėjų žetonus. Pažadink žaidėjus po vieną. Parodoyk jam TU ESI kortą ir pakaliko žetoną, bei nykšti žemyn.",
+    "otherNightReminder": "The Kazali parodo į žaidėją. Tas žaidėjas miršta.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": true,
+    "ability": "Kiekvieną naktį*, pasirink žaidėją: jis miršta. [Tu pasirenki kurie žaidėjai bus kurie pakalikai. [-? - +? Prašalaičiai]"
+  },
+  {
+    "id": "ojo",
+    "name": "Ojo",
+    "edition": "",
+    "team": "demon",
+    "firstNightReminder": "",
+    "otherNightReminder": "The Ojo parodo į personažą iš lapo. Jei personažas yra žaidime, tas žaidėjas miršta. Jei ne, Pasakotojas parenka kas miršta vietoje jo.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, pasirink personažą: jis miršta. Jei personažas nedalyvauja žaidime, Pasakotojas pasirenka kas miršta."
+  },
+  {
+    "id": "alhadikhia",
+    "name": "Al-Hadikhia",
+    "edition": "",
+    "team": "demon",
+    "firstNightReminder": "",
+    "otherNightReminder": "The Al-Hadikhia gali pasirinkti 3 žaidėjus. Jei taip, iš eilės pažadink pirmą žaidėją. Parodyk jam ŠIS PERSONAŽAS PASIRINKO TAVE . Jis pasirenka gyventi (galvos linktelėjimas) arba mirti (galvos pakratymas). Tie kurie pasirinko gyveni - gyvena (gali prisikelti), kurie pasirinko mirti - miršta. SVARBU. Jei visi 3 pasirinko gyventi, visi miršta.",
+    "reminders": [
+      "1",
+      "2",
+      "3"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, gali pasirinkti iki 3 žaidėjų (visi pasirinkti žaidėjai sužino kad juos pasirinkai): kiekvienas iš jų pasirenka gyvens ar mirs, jei visi pasirinko gyventi, visi miršta."
+  },
+  {
+    "id": "legion",
+    "name": "Legionas",
+    "edition": "",
+    "team": "demon",
+    "firstNightReminder": "",
+    "otherNightReminder": "Pasakotojas gali pasirinkti žaidėją, tas žaidėjas miršta.",
+    "reminders": [
+      "Dead",
+      "About To Die"
+    ],
+    "setup": true,
+    "ability": "Kiekvieną naktį*, žaidėjas gali mirti. Egzekucija nepavyksta, jei tik blogi žaidėjai balsavo. Tu esi aptinkamas kaip Pakalikas. [Didžioji dalis žaidėjų yra Legionas]"
+  },
+  {
+    "id": "lordoftyphon",
+    "name": "Taifūnų valdovas",
+    "edition": "",
+    "team": "demon",
+    "firstNightReminder": "Pažadink žaidėjus iš abiejų pusių Demonui. Parodyk jiems 'TU ESI' kortelę, žetoną koks Pakalikas jis yra ir nykštį žemyn pranešti, kad jie yra blogi.",
+    "otherNightReminder": "Taifūnų valdovas parodo į žaidėją. Jis miršta.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": true,
+    "ability": "Kiekvieną naktį*, pasirink žaidėją: jis miršta.[Blogi personažai yra linijoje, tu esi viduryje. +1 Pakalikas. -? arba +? Prašalaičių.]"
+  },
+  {
+    "id": "lleech",
+    "name": "Ličas",
+    "edition": "",
+    "team": "demon",
+    "firstNightReminder": "Ličas parodo į žaidėją. Nurodytam žaidėjui padėk 'Poisoned' markerį.",
+    "otherNightReminder": "Ličas parodo į žaidėją. Tas žaidėjas miršta.",
+    "reminders": [
+      "Dead",
+      "Poisoned"
+    ],
+    "setup": false,
+    "ability": "Kiekvieną naktį*, pasirenki žaidėją: jis miršta. Pirmą naktį pasirenki žaidėją: jis yra apnuodytas. Tu miršti tik tada kai pasirinktasis žaidėjas miršta."
+  },
+  {
+    "id": "leviathan",
+    "name": "Leviatanas",
+    "edition": "",
+    "team": "demon",
+    "firstNightReminder": "Padėk Leviatano markerį 'Day 1'. Pranešk, kad 'Leviatanas dalyvauja žaidime. Tai yra pirmoji diena.'",
+    "otherNightReminder": "Pakeisk Leviatano dienos markerį į ateinančios dienos markerį.",
+    "reminders": [
+      "Day 1",
+      "Day 2",
+      "Day 3",
+      "Day 4",
+      "Day 5",
+      "Good Player Executed"
+    ],
+    "setup": false,
+    "ability": "Jei daugiau nei 1 geram žaidėjui atliekama egzekucija, blogis laimi. Visi žaidėjai žino jog tu dalyvauji žaidime. Po 5 dienų, blogis laimi."
+  },
+  {
+    "id": "riot",
+    "name": "Sukilimas",
+    "edition": "",
+    "team": "demon",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Night 1",
+      "Night 2",
+      "Night 3"
+    ],
+    "setup": false,
+    "ability": "Trečiąja dieną, Pakalikai tampa Sukilimu ir nominantai miršta, bet nedelsdamas nominuoja gyvą žaidėją. Tai būtinai turi įvykti."
+  },
+  {
+    "id": "cacklejack",
+    "name": "Cacklejack",
+    "edition": "",
+    "team": "traveller",
+    "firstNightReminder": "",
+    "otherNightReminder": "Pakeisk žaidėjo (bet kurio išskyrus tą kurį pasirinko Cacklejack) žetoną kito personažo žetonu. Pažadink žaidėją, parodyk jam 'TU ESI' ir jo naująjį žetoną.",
+    "reminders": ["Not Me"],
+    "setup": false,
+    "ability": "Kiekvieną dieną, pasirink žaidėją: kito žaidėjo žetonas bus pakeistas šiąnakt."
+  },
+  {
+    "id": "gangster",
+    "name": "Gangsteris",
+    "edition": "",
+    "team": "traveller",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Kartą per dieną, tu gali nužudyti gyvą savo kaimyną, jei tavo kolega iš kito šono sutinka su tuo."
+  },
+  {
+    "id": "gnome",
+    "name": "Gnomas",
+    "edition": "",
+    "team": "traveller",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Amigo"
+    ],
+    "setup": false,
+    "ability": "Visi žaidėjai pradeda žinodami žaidėją iš tavo komandos (AMIGO). Tu gali nužudyti bet kurį kas nominuoja tavo AMIGO."
+  }
+]
