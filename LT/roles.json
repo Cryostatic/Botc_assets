@@ -228,11 +228,11 @@
     "name": "Šnipas",
     "edition": "tb",
     "team": "minion",
-    "firstNightReminder": "Parodyti Šnipui Grimuarą tiek kiek jis to norės.",
-    "otherNightReminder": "Parodyti Šnipui Grimuarą tiek kiek jis to norės.",
+    "firstNightReminder": "Šnipas parodo į žaidėją. Sužinai jo personažą.",
+    "otherNightReminder": "Šnipas parodo į žaidėją. Sužinai jo personažą.",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną naktį pamatai Grimuarą. Tu galbūt atpažįstamas kaip Miestietis arba Prašalaitis , net jei esi miręs."
+    "ability": "Kiekvieną naktį, pasirink žaidėją, tu sužinai jo personažą. Tu galbūt atpažystamas kaip Miestietis arba Prašalaitis net jei esi miręs."
   },
   {
     "id": "scarletwoman",
