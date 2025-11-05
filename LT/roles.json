@@ -50,7 +50,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Pradedi žaidimą  žinodamas, kiek porų blogų žaidėjų dalyvauja žaidime."
+    "ability": "Pradedi žaidimą žinodamas kiek porų blogų žaidėjų dalyvauja žaidime."
   },
   {
     "id": "empath",
@@ -61,7 +61,7 @@
     "otherNightReminder": "Parodyti signalą pirštais (0, 1, 2) kiek gyvų kaimynų yra blogi.",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną naktį sužinai, kiek iš tavo 2 gyvų kaimynų yra blogi."
+    "ability": "Kiekvieną naktį sužinai keli iš tavo 2 gyvų kaimynų yra blogi."
   },
   {
     "id": "fortuneteller",
@@ -74,7 +74,7 @@
       "Red Herring"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį pasirenki 2 žaidėjus. Sužinai ar vienas iš jų yra Demonas. Yra geras žaidėjas, kuris tau matosi kaip demonas."
+    "ability": "Kiekvieną naktį pasirenki 2 žaidėjus. Sužinai ar vienas iš jų yra Demonas. 1 geras žaidėjas neteisingai atpažįstamas kaip Demonas."
   },
   {
     "id": "undertaker",
@@ -87,7 +87,7 @@
       "Died Today"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį* sužinai, kuris personažas  šiandien mirė nuo egzekucijos."
+    "ability": "Kiekvieną naktį* sužinai kuris personažas šiandien mirė nuo egzekucijos."
   },
   {
     "id": "monk",
@@ -100,7 +100,7 @@
       "Safe"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį* pasirink žaidėją (ne save). Jis yra apsaugotas nuo Demono. "
+    "ability": "Kiekvieną naktį* pasirink žaidėją (ne save). Jis yra saugus nuo Demono."
   },
   {
     "id": "ravenkeeper",
@@ -111,7 +111,7 @@
     "otherNightReminder": "Jei šiąnakt mirė Kranklių užkalbėtojas: Kranklių užkalbėtojas parodo į žaidėją. Parodyti to žaidėjo žetoną.",
     "reminders": [],
     "setup": false,
-    "ability": "Jei miršti naktį, esi pažadinamas. Pasirink žaidėją. Sužinai to žaidėjo personažą."
+    "ability": "Jei miršti naktį — esi pažadinamas. Pasirink žaidėją. Sužinai to žaidėjo personažą."
   },
   {
     "id": "virgin",
@@ -124,7 +124,7 @@
       "No Ability"
     ],
     "setup": false,
-    "ability": "Kai esi nominuojamas pirmą kartą, jei nominuotojas yra Miestietis, jam iškart atliekama egzekucija."
+    "ability": "Kai esi nominuojamas pirmą kartą. Jei nominuotojas yra Miestietis — iškart atliekama egzekucija."
   },
   {
     "id": "slayer",
@@ -137,7 +137,7 @@
       "No Ability"
     ],
     "setup": false,
-    "ability": "Vieną kartą per žaidimą, dienos metu, viešai pasirink žaidėją, jei jis yra Demonas, jis miršta."
+    "ability": "Vieną Kartą per žaidimą dienos metu, viešai pasirink žaidėją. Jei jis yra Demonas — miršta."
   },
   {
     "id": "soldier",
@@ -197,7 +197,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Tu galbūt atpažįstamas kaip blogas žaidėjas, Pakalikas arba Demonas, net kai esi miręs."
+    "ability": "Tu gali būt atpažįstamas kaip ( Demonas / Pakalikas / Prašalaitis / Miestietis ). Net ir mirus ."
   },
   {
     "id": "saint",
@@ -221,18 +221,18 @@
       "Poisoned"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį pasirink žaidėją.  Tas žaidėjas tą naktį ir kitą dieną yra apnuodytas."
+    "ability": "Kiekvieną naktį pasirink žaidėją. Jis yra apnuodytas iki kito vakaro."
   },
   {
     "id": "spy",
     "name": "Šnipas",
     "edition": "tb",
     "team": "minion",
-    "firstNightReminder": "Parodyti Šnipui Grimuarą tiek kiek jis to norės.",
-    "otherNightReminder": "Parodyti Šnipui Grimuarą tiek kiek jis to norės.",
+    "firstNightReminder": "Šnipas parodo į žaidėją. Sužinai jo personažą.",
+    "otherNightReminder": "Šnipas parodo į žaidėją. Sužinai jo personažą.",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną naktį pamatai Grimuarą. Tu galbūt atpažįstamas kaip Miestietis arba Prašalaitis , net jei esi miręs."
+    "ability": "Kiekvieną naktį pasirink žaidėją. Sužinai jo personažą. Tu gali būti atpažįstamas kaip ( Miestietis / Prašalaitis ). Net ir mirus."
   },
   {
     "id": "scarletwoman",
@@ -245,7 +245,7 @@
       "Is The Demon"
     ],
     "setup": false,
-    "ability": "Jei gyvi yra 5 ar daugiau žaidėjų (Keliauninkai nesiskaičiuoja) ir Demonas miršta, tu tampi Demonu. "
+    "ability": "Jei gyvi 5 ar daugiau žaidėjų ( Keliauninkai nesiskaičiuoja ) ir Demonas miršta — tu tampi Demonu."
   },
   {
     "id": "baron",
@@ -256,7 +256,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": true,
-    "ability": "Žaidime dalyvauja papildomi Prašalaičiai [+2 Prašalaičiai]"
+    "ability": "Žaidime dalyvauja papildomi Prašalaičiai. [+2 Prašalaičiai]"
   },
   {
     "id": "imp",
@@ -269,7 +269,7 @@
       "Dead"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį* pasirenki žaidėją. Jis miršta. Jei nužudai save šiuo būdu, Pakalikas tampa Demonu."
+    "ability": "Kiekvieną naktį* pasirinki žaidėją. Jis miršta. Jei save nužudai šiuo būdu. Pakalikas tampa Demonu."
   },
   {
     "id": "thief",
@@ -282,7 +282,7 @@
       "Negative Vote"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį, pasirink žaidėją (ne save): rytoj jo balsavimas skaičiuojamas priešingai."
+    "ability": "Kiekvieną naktį pasirink žaidėją (ne save): rytoj jo balsavimas skaičiuojamas priešingai."
   },
   {
     "id": "bureaucrat",
@@ -295,7 +295,7 @@
       "3 Votes"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį, pasirink žaidėją (ne save): rytoj jo balsas vertas 3 balsų."
+    "ability": "Kiekvieną naktį pasirink žaidėją (ne save): rytoj jo balsas vertas 3 balsų."
   },
   {
     "id": "gunslinger",
@@ -306,7 +306,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną dieną, pabaigus suskaičiuoti 1 dienos balsavimą, pasirink žaidėją kuris balsavo: jis miršta."
+    "ability": "Kiekvieną dieną pabaigus suskaičiuoti 1 dienos balsavimą, pasirink žaidėją kuris balsavo: jis miršta."
   },
   {
     "id": "scapegoat",
@@ -355,7 +355,7 @@
       "Drunk"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį, pasirink gyvą žaidėją: tu arba jis yra girtas iki ryto. Tu negali mirti."
+    "ability": "Kiekvieną naktį pasirink gyvą žaidėją. Vienas iš jūsų yra girtas iki kito vakaro. Tu negali mirti."
   },
   {
     "id": "chambermaid",
@@ -366,7 +366,7 @@
     "otherNightReminder": "Kambarinė parodo į 2 gyvus žaidėjus. Parodyk skaičių signalą (0, 1, 2, …) kiek iš nurodytų žaidėjų pabudo naktį dėl savo sugebėjimų.",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną naktį, pasirink 2 gyvus žaidėjus (ne save): tu sužinai kiek žaidėjų šiąnakt pabudo, dėl savo sugebėjimų."
+    "ability": "Kiekvieną naktį pasirink 2 gyvus žaidėjus (ne save): tu sužinai kiek žaidėjų šiąnakt pabudo, dėl savo sugebėjimų."
   },
   {
     "id": "exorcist",
@@ -379,22 +379,22 @@
       "Chosen"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*, pasirink žaidėją (kitą nei praeitą naktį): Demonas, jei jį pasirinkai, sužino kas tu esi ir neprabundą tą naktį."
+    "ability": "Kiekvieną naktį* pasirink žaidėją (kitą nei praeitą naktį). Jei pasirinkai Demoną, jis sužino kas tu esi ir neprabunda tą naktį."
   },
   {
     "id": "innkeeper",
-    "name": "Užeigos savininkas",
+    "name": "Smuklininkas",
     "edition": "bmr",
     "team": "townsfolk",
     "firstNightReminder": "",
-    "otherNightReminder": "Praeitą naktį apsaugoti ir girtas žaidėjas praranda žetonus. Užeigos savininkas parodo į 2 žaidėjus. Abu žaidėjai yra apsaugoti. Vienas iš jų girtas.",
+    "otherNightReminder": "Praeitą naktį apsaugoti ir girtas žaidėjas praranda žetonus. Smuklininkas parodo į 2 žaidėjus. Abu žaidėjai yra apsaugoti. Vienas iš jų girtas.",
     "reminders": [
       "Safe",
       "Safe",
       "Drunk"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*,  pasirink 2 žaidėjus: jie šiąnakt negali mirti, bet vienas iš jų girtas iki ryto."
+    "ability": "Kiekvieną naktį* pasirink 2 žaidėjus. Jie šiąnakt negali mirti. Vienas iš jų girtas iki vakaro."
   },
   {
     "id": "gambler",
@@ -407,7 +407,7 @@
       "Dead"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*, pasirink žaidėją ir spėk jo personažą, jei suklysti, miršti."
+    "ability": "Kiekvieną naktį* pasirink žaidėją ir spėk jo personažą. Jei suklysti — miršti."
   },
   {
     "id": "gossip",
@@ -420,15 +420,15 @@
       "Dead"
     ],
     "setup": false,
-    "ability": "Kiekvieną dieną, gali padaryti viešą pareiškimą. Šiąnakt, jei pareiškimas buvo teisingas, vienas žaidėjas miršta."
+    "ability": "Kiekvieną dieną gali padaryti viešą pareiškimą. Šiąnakt, jei pareiškimas buvo teisingas, vienas žaidėjas miršta."
   },
   {
     "id": "courtier",
-    "name": "Dvariškis",
+    "name": "Meilikautojas",
     "edition": "bmr",
     "team": "townsfolk",
-    "firstNightReminder": "Dvariškis parodo galvos signalą 'ne' arba pasirenka personažą iš lapo. Jei Dvariškis panaudojo savo sugebėjimą: jei žaidėjas dalyvauja žaidime, tas žaidėjas yra girtas.",
-    "otherNightReminder": "Sumažinti likusių dienų žetoną pasirinktam girtam žaidėjui. Dvariškis parodo gavlos signalą 'ne' arba pasirenka personažą iš lapo. Jei Dvariškis panaudojo savo sugebėjimą: jei žaidėjas dalyvauja žaidime, tas žaidėjas yra girtas.",
+    "firstNightReminder": "Meilikautojas parodo galvos signalą 'ne' arba pasirenka personažą iš lapo. Jei Meilikautojas panaudojo savo sugebėjimą: jei žaidėjas dalyvauja žaidime, tas žaidėjas yra girtas.",
+    "otherNightReminder": "Sumažinti likusių dienų žetoną pasirinktam girtam žaidėjui. Meilikautojas parodo gavlos signalą 'ne' arba pasirenka personažą iš lapo. Jei Meilikautojas panaudojo savo sugebėjimą: jei žaidėjas dalyvauja žaidime, tas žaidėjas yra girtas.",
     "reminders": [
       "Drunk 1",
       "Drunk 2",
@@ -436,7 +436,7 @@
       "No Ability"
     ],
     "setup": false,
-    "ability": "Kartą per žaidimą, naktį, pasirink personažą: jis bus girtas 3 dienas ir 3 naktis."
+    "ability": "Kartą per žaidimą naktį pasirink personažą. Jis bus girtas 3 dienas ir 3 naktis."
   },
   {
     "id": "professor",
@@ -450,11 +450,11 @@
       "No Ability"
     ],
     "setup": false,
-    "ability": "Kartą per žaidimą, naktį*, pasirink mirusį žaidėją: jei jis yra Miestelėnas, jis prisikelia."
+    "ability": "Kartą per žaidimą naktį*, pasirink mirusį žaidėją: jei jis yra Miestelėnas, jis prisikelia."
   },
   {
     "id": "minstrel",
-    "name": "Minstrelis",
+    "name": "Dainorėlis",
     "edition": "bmr",
     "team": "townsfolk",
     "firstNightReminder": "",
@@ -463,11 +463,11 @@
       "Everyone Is Drunk"
     ],
     "setup": false,
-    "ability": "Kai Pakalikas miršta dėl egzekucijos, visi kiti žaidėjai (išskyrus Keliautojus) yra girti iki rytojaus ryto."
+    "ability": "Kai Pakalikas miršta nuo egzekucijos. Visi kiti žaidėjai (išskyrus Keliautojus) yra girti iki rytojaus vakaro."
   },
   {
     "id": "tealady",
-    "name": "Arbatos ledi",
+    "name": "Žolininkė",
     "edition": "bmr",
     "team": "townsfolk",
     "firstNightReminder": "",
@@ -477,7 +477,7 @@
       "Cannot Die"
     ],
     "setup": false,
-    "ability": "Jei abu tavo kaimynai yra geri, jie negali mirti."
+    "ability": "Jei abu gyby tavo kaimynai yra geri. Jie negali mirti."
   },
   {
     "id": "pacifist",
@@ -488,11 +488,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Geras žaidėjas kuriam atlikta egzekucija gali išgyventi."
+    "ability": "Geras žaidėjas, kuriam atlikta egzekucija gali išgyventi."
   },
   {
     "id": "fool",
-    "name": "Kvailys",
+    "name": "Juokdarys",
     "edition": "bmr",
     "team": "townsfolk",
     "firstNightReminder": "",
@@ -501,11 +501,11 @@
       "No Ability"
     ],
     "setup": false,
-    "ability": "Pirmą kartą kai miršti, nemiršti."
+    "ability": "Pirmą kartą kai miršti. Nemiršti."
   },
   {
     "id": "goon",
-    "name": "Niekšas",
+    "name": "Budulis",
     "edition": "bmr",
     "team": "outsider",
     "firstNightReminder": "",
@@ -514,7 +514,7 @@
       "Drunk"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį, 1 žaidėjas pasirinkęs tave su savo sugebėjimu yra girtas iki ryto. Tu pereini į jo komandą."
+    "ability": "Kiekvieną naktį pirmas žaidėjas panaudojęs savo sugebėjimą prieš tave yra girtas iki vakaro. Tu pereini į jo komandą."
   },
   {
     "id": "lunatic",
@@ -529,20 +529,20 @@
       "Chosen"
     ],
     "setup": false,
-    "ability": "Tu manai kad esi Demonas, bet toks nesi. Demonas žino, kas tu esi iš tikro ir ką pasirinkai naktį."
+    "ability": "Tu manai kad esi Demonas, bet toks nesi. Demonas žino kas esi ir ką pasirinkai naktį."
   },
   {
     "id": "tinker",
-    "name": "Tinkeris",
+    "name": "Pėckelis",
     "edition": "bmr",
     "team": "outsider",
     "firstNightReminder": "",
-    "otherNightReminder": "Tinkeris gali mirti.",
+    "otherNightReminder": "Pėckelis gali mirti.",
     "reminders": [
       "Dead"
     ],
     "setup": false,
-    "ability": "Tu gali mirti, bet kuriuo metu."
+    "ability": "Tu gali mirti bet kuriuo metu."
   },
   {
     "id": "moonchild",
@@ -555,7 +555,7 @@
       "Dead"
     ],
     "setup": false,
-    "ability": "Kai sužinai, kad mirei, viešai pasirink 1 gyvą žaidėją. Šiąnakt, jei žaidėjas yra geras, jis mirs."
+    "ability": "Kai sužinai apie savo mirtį. Viešai pasirink 1 gyvą žaidėją. Šiąnakt, jei žaidėjas yra geras, jis miršta."
   },
   {
     "id": "godfather",
@@ -569,7 +569,7 @@
       "Dead"
     ],
     "setup": true,
-    "ability": "Pradedi žaidimą žinodamas kurie Prašalaičiai yra žaidime. Jei 1 iš jų mirė šiandien, naktį pasirink žaidėją: jis miršta. [-1 ar +1 Prašalaičių]"
+    "ability": "Pradedi žaidimą žinodamas kurie Prašalaičiai yra žaidime. Jei prašalaitis numirė. Naktį pasirink žaidėją. Jis miršta. [-1 ar +1 Prašalaičių]"
   },
   {
     "id": "devilsadvocate",
@@ -577,12 +577,12 @@
     "edition": "bmr",
     "team": "minion",
     "firstNightReminder": "Velnio advokatas parodo į gyvą žaidėją. Tas žaidėjas rytoj išgyvens egzekuciją",
-    "otherNightReminder": "Velnio advokatas parodo į gyvą žaidėją, skirtinga praeitai nakčiai. Tas žaidėjas rytoj išgyvens egzekuciją.",
+    "otherNightReminder": "Velnio advokatas parodo į gyvą žaidėją, kitą nei praeitą naktį. Tas žaidėjas rytoj išgyvens egzekuciją.",
     "reminders": [
       "Survives Execution"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį, pasirink gyvą žaidėją (skirtinga praeitai nakčiai): jei ryt jam įvykdoma egzekucija, jis išgyvena."
+    "ability": "Kiekvieną naktį pasirink gyvą žaidėją (kitą nei praeitą naktį). Jei ryt jam įvykdoma egzekucija, jis išgyvena."
   },
   {
     "id": "assassin",
@@ -600,14 +600,14 @@
   },
   {
     "id": "mastermind",
-    "name": "Sumanytojas",
+    "name": "Strategas",
     "edition": "bmr",
     "team": "minion",
     "firstNightReminder": "",
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Jei demonas miršta nuo egzekucijos (pabaigdamas žaidimą), žaiskite dar 1 dieną. Jei žaidėjui atliekama egzekucija, jų komanda pralaimi."
+    "ability": "Jei demonas miršta nuo egzekucijos (pabaigdamas žaidimą). Žaiskite dar 1 dieną. Jei žaidėjui atliekama egzekucija. Jų komanda pralaimi."
   },
   {
     "id": "zombuul",
@@ -621,7 +621,7 @@
       "Dead"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*, jei niekas diena nemiršta, pasirink žaidėją: jis miršta. Pirmą kartą kai miršti, išgyveni, tačiau visiems esi fiksuojamas kaip miręs."
+    "ability": "Kiekvieną naktį* jei diena niekas nemiršta. Pasirink žaidėją. Jis miršta. Pirmą kartą kai miršti, išgyveni, tačiau visiems esi matomas kaip miręs."
   },
   {
     "id": "pukka",
@@ -636,7 +636,7 @@
       "Dead"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį, pasirink žaidėją: jis yra apnuodytas. Praeitą naktį apnuodytas žaidėjas miršta ir tampa sveikas."
+    "ability": "Kiekvieną naktį pasirink žaidėją: jis yra apnuodytas. Praeitą naktį apnuodytas žaidėjas miršta ir tampa sveikas."
   },
   {
     "id": "shabaloth",
@@ -651,7 +651,7 @@
       "Alive"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*, pasirink 2 žaidėjus: jie miršta. Miręs žaidėjai kuriuos pasirinkai Praeitą naktį gali būti atrytas(prisikelti)."
+    "ability": "Kiekvieną naktį* pasirink 2 žaidėjus. Jie miršta. Vienas iš žaidėjų, nužudytu praitą naktį, gali būti atrytas(prisikelti)."
   },
   {
     "id": "po",
@@ -667,20 +667,20 @@
       "3 Attacks"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*, pasirenki žaidėją: jis miršta. Jei Praeitą naktį nepasirinkai nieko, šiandien renkiesi 3 žaidėjus: jie miršta."
+    "ability": "Kiekvieną naktį* gali pasirinkti žaidėją. Jis miršta. Jei praeitą naktį nepasirinkai nieko, šiandien renkiesi 3 žaidėjus. Jie miršta."
   },
   {
     "id": "apprentice",
-    "name": "Mokinys",
+    "name": "Pameistrys",
     "edition": "bmr",
     "team": "traveller",
-    "firstNightReminder": "Mokiniui parodyk 'TU ESI' kortelę, tada Miestelėno arba Pakaliko žetoną. Grimuare pakeisk Mokinio žetoną su parinkto personažo žetonu, bei padėk 'Is The Apprentice' markerį šalia personažo žetono.",
+    "firstNightReminder": "Pameistriui parodyk 'TU ESI' kortelę, tada Miestelėno arba Pakaliko žetoną. Grimuare pakeisk Mokinio žetoną su parinkto personažo žetonu, bei padėk 'Is The Apprentice' markerį šalia personažo žetono.",
     "otherNightReminder": "",
     "reminders": [
       "Is The Apprentice"
     ],
     "setup": false,
-    "ability": "Pirmą naktį, gauni Miestelėno sugebėjimą (jei esi Geras) arba Pakaliko sugebėjimą (jei esi Blogas)."
+    "ability": "Pirmą naktį gauni Miestelėno sugebėjimą (jei esi Geras) arba Pakaliko sugebėjimą (jei esi Blogas)."
   },
   {
     "id": "matron",
@@ -691,7 +691,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną dieną, gali parinkti iki 3 žaidėjų porų susikeisti sėdėjimo vietomis. Žaidėjai negali palikti savo vietų kalbėtis privačiai."
+    "ability": "Kiekvieną dieną gali parinkti iki 3 žaidėjų porų susikeisti sėdėjimo vietomis. Žaidėjai negali palikti savo vietų kalbėtis privačiai."
   },
   {
     "id": "judge",
@@ -704,7 +704,7 @@
       "No Ability"
     ],
     "setup": false,
-    "ability": "Kartą per žaidimą, jei žaidėjas yra nominuojamas(ne tu), gali nuspręsti žaidėjui atliekama egzekucija ar ne."
+    "ability": "Kartą per žaidimą jei žaidėjas yra nominuojamas(ne tu), gali nuspręsti žaidėjui atliekama egzekucija ar ne."
   },
   {
     "id": "voudon",
@@ -751,7 +751,7 @@
     "otherNightReminder": "Svajotojas parodo į žaidėją. Parodyk 1 gero personažo ir 1 blogo personažo žetoną.; vienas iš jų yra teisingas.",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną naktį, pasirink žaidėją (ne save arba Keliautoją): tu sužinai 1 gerą ir 1 blogą personažus, iš kurių vienas yra teisingas."
+    "ability": "Kiekvieną naktį pasirink žaidėją (ne save arba Keliautoją): tu sužinai 1 gerą ir 1 blogą personažus, iš kurių vienas yra teisingas."
   },
   {
     "id": "snakecharmer",
@@ -764,7 +764,7 @@
       "Poisoned"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį, pasirink gyvą žaidėją: jei pasirinkai Demoną jis su tavimi apsikeičia personažu, komanda ir yra apnuodytas."
+    "ability": "Kiekvieną naktį pasirink gyvą žaidėją: jei pasirinkai Demoną jis su tavimi apsikeičia personažu, komanda ir yra apnuodytas."
   },
   {
     "id": "mathematician",
@@ -781,7 +781,7 @@
       "Abnormal"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį, sužinai kelių žaidėjų sugebėjimai suveikė neteisingai, skaičiuojant nuo aušros, dėl kitų žaidėjų sugebėjimų."
+    "ability": "Kiekvieną naktį sužinai kelių žaidėjų sugebėjimai suveikė neteisingai, skaičiuojant nuo aušros, dėl kitų žaidėjų sugebėjimų."
   },
   {
     "id": "flowergirl",
@@ -795,7 +795,7 @@
       "Demon Not Voted"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*, sužinai ar Demonas šiandien balsavo."
+    "ability": "Kiekvieną naktį* sužinai ar Demonas šiandien balsavo."
   },
   {
     "id": "towncrier",
@@ -809,7 +809,7 @@
       "Pakalikai Not Nominated"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*, sužinai ar Pakalikas šiandien nominavo."
+    "ability": "Kiekvieną naktį* sužinai ar Pakalikas šiandien nominavo."
   },
   {
     "id": "oracle",
@@ -820,7 +820,7 @@
     "otherNightReminder": "Parodyk rankų signalą skaičiui (0, 1, 2, etc.) mirusių blogų žaidėjų.",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną naktį*, sužinai kiek negyvų žaidėjų yra blogi."
+    "ability": "Kiekvieną naktį* sužinai kiek negyvų žaidėjų yra blogi."
   },
   {
     "id": "savant",
@@ -831,7 +831,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną dieną, gali aplankyti Pasakotoją sužinoti 2 dalykus privačiai: Vienas yra tiesa, kitas melas."
+    "ability": "Kiekvieną dieną gali aplankyti Pasakotoją sužinoti 2 dalykus privačiai: Vienas yra tiesa, kitas melas."
   },
   {
     "id": "seamstress",
@@ -844,7 +844,7 @@
       "No Ability"
     ],
     "setup": false,
-    "ability": "Kartą per žaidimą, naktį, pasirink 2 žaidėjus (ne save): sužinai ar jie yra toje pačioje komandoje."
+    "ability": "Kartą per žaidimą naktį pasirink 2 žaidėjus (ne save) Sužinai ar jie yra toje pačioje komandoje."
   },
   {
     "id": "philosopher",
@@ -858,7 +858,7 @@
       "Is The Philosopher"
     ],
     "setup": false,
-    "ability": "Kartą per žaidimą, naktį, pasirink gerą personažą: gauni jo sugebėjimą. Jei šis personažas dalyvauja žaidime, jis yra girtas."
+    "ability": "Kartą per žaidimą naktį pasirink gerą personažą: gauni jo sugebėjimą. Jei šis personažas dalyvauja žaidime, jis yra girtas."
   },
   {
     "id": "artist",
@@ -871,7 +871,7 @@
       "No Ability"
     ],
     "setup": false,
-    "ability": "Kartą per žaidimą, dienos metu, privačiai paklausk Pasakotojo bet kokio Taip/Ne klausimo."
+    "ability": "Kartą per žaidimą dienos metu, privačiai paklausk Pasakotojo bet kokio Taip/Ne klausimo."
   },
   {
     "id": "juggler",
@@ -960,7 +960,7 @@
       "Cursed"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį, pasirink žaidėją: jei jis nominuoja rytoj, jis miršta. Jei žaidime liko 3 žaidėjai, prarandi šį sugebėjimą."
+    "ability": "Kiekvieną naktį pasirink žaidėją: jei jis nominuoja rytoj, jis miršta. Jei žaidime liko 3 žaidėjai, prarandi šį sugebėjimą."
   },
   {
     "id": "cerenovus",
@@ -973,7 +973,7 @@
       "Mad"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį, pasirink 1 žaidėją ir 1 gerą personažą: jis yra Išprotėjęs kad jis yra šis personažas, jei ne jam gali būti atlikta egzekucija."
+    "ability": "Kiekvieną naktį pasirink 1 žaidėją ir 1 gerą personažą: jis yra Išprotėjęs kad jis yra šis personažas, jei ne jam gali būti atlikta egzekucija."
   },
   {
     "id": "pithag",
@@ -984,7 +984,7 @@
     "otherNightReminder": "The Pit-Hag parodo į 1 žaidėją ir 1 personažą lape. Jei šis personažas nedalyvauja žaidime, pažadink žaidėją ir parodyk jam 'TU ESI' kortelę ir naują personažo žetoną. Jei personažas dalyvauja žaidime, niekas neįvyksta.",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną naktį*, pasirink žaidėją ir personažą kuriuo jis tampa (tik jei personažas nedalyvauja žaidime). Jei šiuo būdu sukuriamas Demono žaidėjas, šiąnakt niekas nemiršta."
+    "ability": "Kiekvieną naktį* pasirink žaidėją ir personažą kuriuo jis tampa (tik jei personažas nedalyvauja žaidime). Jei šiuo būdu sukuriamas Demono žaidėjas, šiąnakt niekas nemiršta."
   },
   {
     "id": "eviltwin",
@@ -1011,7 +1011,7 @@
       "Once"
     ],
     "setup": true,
-    "ability": "Kiekvieną naktį*, pasirink žaidėją: jis miršta. Pirmasis taip miręs prašalaitis tampa blogasis Fang Gu ir tu miršti vietoje jo. [+1 Prašalaitis]"
+    "ability": "Kiekvieną naktį* pasirink žaidėją: jis miršta. Pirmasis taip miręs prašalaitis tampa blogasis Fang Gu ir tu miršti vietoje jo. [+1 Prašalaitis]"
   },
   {
     "id": "vigormortis",
@@ -1030,7 +1030,7 @@
       "Poisoned"
     ],
     "setup": true,
-    "ability": "Kiekvieną naktį*, pasirink žaidėją: jis miršta. Pakalikai kuriuos taip nužudai, pasilieka savo sugebėjimą ir apnuodija 1 savo kaimyną [−1 Prašalaitis]."
+    "ability": "Kiekvieną naktį* pasirink žaidėją: jis miršta. Pakalikai kuriuos taip nužudai, pasilieka savo sugebėjimą ir apnuodija 1 savo kaimyną [−1 Prašalaitis]."
   },
   {
     "id": "nodashii",
@@ -1045,7 +1045,7 @@
       "Poisoned"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*, pasirink žaidėją: jis miršta. Tavo 2 kaimynai yra apnuodyti."
+    "ability": "Kiekvieną naktį* pasirink žaidėją: jis miršta. Tavo 2 kaimynai yra apnuodyti."
   },
   {
     "id": "vortox",
@@ -1058,7 +1058,7 @@
       "Dead"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*, pasirink žaidėją: jis miršta. Miestiečių gaunama informacija yra klaidinga. Kiekvieną dieną, jei niekam neatliekama egzekucija, blogis laimi."
+    "ability": "Kiekvieną naktį* pasirink žaidėją: jis miršta. Miestiečių gaunama informacija yra klaidinga. Kiekvieną dieną jei niekam neatliekama egzekucija, blogis laimi."
   },
   {
     "id": "barista",
@@ -1074,7 +1074,7 @@
       "?"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį, iki ryto, 1) Žaidėjas tampa blaivus, sveikas ir gauna teisinga informaciją, arba 2) Jų sugebėjimas suveikia 2 kartus. Sužinai 1 ar 2."
+    "ability": "Kiekvieną naktį iki ryto, 1) Žaidėjas tampa blaivus, sveikas ir gauna teisinga informaciją, arba 2) Jų sugebėjimas suveikia 2 kartus. Sužinai 1 ar 2."
   },
   {
     "id": "harlot",
@@ -1088,7 +1088,7 @@
       "Dead"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*, pasirink gyvą žaidėją: jei jis sutinka, sužinai jo personažą, bet jūs abu galite mirti."
+    "ability": "Kiekvieną naktį* pasirink gyvą žaidėją: jei jis sutinka, sužinai jo personažą, bet jūs abu galite mirti."
   },
   {
     "id": "butcher",
@@ -1099,7 +1099,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną dieną, po pirmos egzekucijos, gali nominuoti dar kartą."
+    "ability": "Kiekvieną dieną po pirmos egzekucijos, gali nominuoti dar kartą."
   },
   {
     "id": "deviant",
@@ -1124,7 +1124,7 @@
       "Has Ability"
     ],
     "setup": false,
-    "ability": "Kartą per žaidimą, naktį*, pasirink mirusį žaidėją: jis atgauna savo sugebėjimus iki ryto."
+    "ability": "Kartą per žaidimą naktį*, pasirink mirusį žaidėją: jis atgauna savo sugebėjimus iki ryto."
   },
   {
     "id": "steward",
@@ -1215,7 +1215,7 @@
     "otherNightReminder": "Pirštu parodyk į žaidėją.",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną naktį, sužinai su kuriuo žaidėju tau labiausiai verta pasikalbėti (Pasakotojo manymu)."
+    "ability": "Kiekvieną naktį sužinai su kuriuo žaidėju tau labiausiai verta pasikalbėti (Pasakotojo manymu)."
   },
   {
     "id": "balloonist",
@@ -1228,7 +1228,7 @@
       "Know"
     ],
     "setup": true,
-    "ability": "Kiekvieną naktį, sužinai skirtingo tipo (Miestietis/Prašalaitis/Pakalikas/Demonas) žaidėją nei praeitą naktį. [+0 or +1 Prašalaitis]"
+    "ability": "Kiekvieną naktį sužinai skirtingo tipo (Miestietis/Prašalaitis/Pakalikas/Demonas) žaidėją nei praeitą naktį. [+0 or +1 Prašalaitis]"
   },
   {
     "id": "general",
@@ -1239,7 +1239,7 @@
     "otherNightReminder": "Parodyk Generolui nykštys į viršų jei gėris laimi, nykštys į jei blogis laimi ar nykštys per vidurį jei lygiosios.",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną naktį, sužinai kuri komanda laimi (Pasakotojo manymu): gėris,blogis, lygiosios."
+    "ability": "Kiekvieną naktį sužinai kuri komanda laimi (Pasakotojo manymu): gėris,blogis, lygiosios."
   },
   {
     "id": "preacher",
@@ -1254,7 +1254,7 @@
       "No Ability"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį, pasirink žaidėją: jei pasirinkai Pakaliką, jis apie tai sužino. Visi pasirinkti pakalikai netenka savo sugebėjimų."
+    "ability": "Kiekvieną naktį pasirink žaidėją: jei pasirinkai Pakaliką, jis apie tai sužino. Visi pasirinkti pakalikai netenka savo sugebėjimų."
   },
   {
     "id": "villageidiot",
@@ -1267,7 +1267,7 @@
       "Drunk"
     ],
     "setup": true,
-    "ability": "Kiekvieną naktį, pasirink žaidėją: sužinai jo komandą. [+0 iki +2 Kaimo kvailelių. 1 iš papildomų Kaimo kvailelių yra Girtas]"
+    "ability": "Kiekvieną naktį pasirink žaidėją: sužinai jo komandą. [+0 iki +2 Kaimo kvailelių. 1 iš papildomų Kaimo kvailelių yra Girtas]"
   },
   {
     "id": "king",
@@ -1278,7 +1278,7 @@
     "otherNightReminder": "Jei mirusių žaidėjų yra daugiau arba lygu gyvų žaidėjų skaičiui: parodyk Karaliui gyvo žaidėjo personažą.",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną naktį, jei mirusių žaidėjų skaičius yra daugiau arba lygu gyvų žaidėjų skaičiui, tu sužinai 1 gyvą žaidime dalyvaujantį personažą. Demonas žino jog tu esi Karalius."
+    "ability": "Kiekvieną naktį jei mirusių žaidėjų skaičius yra daugiau arba lygu gyvų žaidėjų skaičiui, tu sužinai 1 gyvą žaidime dalyvaujantį personažą. Demonas žino jog tu esi Karalius."
   },
   {
     "id": "cultleader",
@@ -1289,7 +1289,7 @@
     "otherNightReminder": "Gali pakeisti Kulto lyderio komanda kad sutaptu su jo kaimyninio žaidėjo. Jei taip: Pažadink jį. Parodyk jam: TU ESI GERAS arba TU ESI BLOGAS .",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną naktį, tu pereini į tą komandą kuriai priklauso tavo kaimynas. Jei visi gyvi Geri žaidėjai sutinka įstoti į tavo kultą, tavo komanda laimi."
+    "ability": "Kiekvieną naktį tu pereini į tą komandą kuriai priklauso tavo kaimynas. Jei visi gyvi Geri žaidėjai sutinka įstoti į tavo kultą, tavo komanda laimi."
   },
   {
     "id": "acrobat",
@@ -1303,7 +1303,7 @@
       "Dead"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*, pasirink žaidėją: jei jis yra ar tampa girtas ar apnuodytas, tu miršti."
+    "ability": "Kiekvieną naktį* pasirink žaidėją: jei jis yra ar tampa girtas ar apnuodytas, tu miršti."
   },
   {
     "id": "lycanthrope",
@@ -1317,7 +1317,7 @@
       "Dead"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*, pasirink gyvą žaidėją. jei žaidėjas geras, jis miršta ir demonas šią naktį nieko nežudo. Vienas geras žaidėjas atpažįstamas kaip blogas."
+    "ability": "Kiekvieną naktį* pasirink gyvą žaidėją. jei žaidėjas geras, jis miršta ir demonas šią naktį nieko nežudo. Vienas geras žaidėjas atpažįstamas kaip blogas."
   },
   {
     "id": "alsaahir",
@@ -1328,7 +1328,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną dieną, jei viešai atspėji kurie žaidėjai yra Pakalikai ir kuris(ie) yra Demonas, gėris laimi."
+    "ability": "Kiekvieną dieną jei viešai atspėji kurie žaidėjai yra Pakalikai ir kuris(ie) yra Demonas, gėris laimi."
   },
   {
     "id": "engineer",
@@ -1341,7 +1341,7 @@
       "No Ability"
     ],
     "setup": false,
-    "ability": "Kartą per žaidimą, naktį, pasirink kurie Pakalikai arba Demonas dalyvauja žaidime."
+    "ability": "Kartą per žaidimą naktį pasirink kurie Pakalikai arba Demonas dalyvauja žaidime."
   },
   {
     "id": "nightwatchman",
@@ -1354,7 +1354,7 @@
       "No Ability"
     ],
     "setup": false,
-    "ability": "Kartą per žaidimą, naktį, pasirink žaidėją: jis sužino, kad esi Naktinis sargas."
+    "ability": "Kartą per žaidimą naktį pasirink žaidėją: jis sužino, kad esi Naktinis sargas."
   },
   {
     "id": "huntsman",
@@ -1367,7 +1367,7 @@
       "No Ability"
     ],
     "setup": true,
-    "ability": "Kartą per žaidimą, naktį, pasirink gyvą žaidėją: jei pasirinkta Mergelė, ji tampa žaidime nedalyvaujančiu Miestiečiu. [+ Mergelė]"
+    "ability": "Kartą per žaidimą naktį pasirink gyvą žaidėją: jei pasirinkta Mergelė, ji tampa žaidime nedalyvaujančiu Miestiečiu. [+ Mergelė]"
   },
   {
     "id": "fisherman",
@@ -1380,7 +1380,7 @@
       "No Ability"
     ],
     "setup": false,
-    "ability": "Kartą per žaidimą, dienos metu, aplankyk Pasakotoją patarimui kaip jūsų komandai laimėti."
+    "ability": "Kartą per žaidimą dienos metu, aplankyk Pasakotoją patarimui kaip jūsų komandai laimėti."
   },
   {
     "id": "princess",
@@ -1436,7 +1436,7 @@
       "?"
     ],
     "setup": false,
-    "ability": "Tu nepameni kokį turi sugebėjimą. Kiekvieną dieną, privačiai spėk koks tavo sugebėjimas: sužinai kiek teisingai atspėjai (šalta/šilta/karšta)."
+    "ability": "Tu nepameni kokį turi sugebėjimą. Kiekvieną dieną privačiai spėk koks tavo sugebėjimas: sužinai kiek teisingai atspėjai (šalta/šilta/karšta)."
   },
   {
     "id": "farmer",
@@ -1534,7 +1534,7 @@
       "Friend"
     ],
     "setup": false,
-    "ability": "Pirmą naktį, pasirink žaidėją (ne save): tampi jo komandos narys (nežinai kurios komandos) net jei esi girtas ar apnuodytas."
+    "ability": "Pirmą naktį pasirink žaidėją (ne save): tampi jo komandos narys (nežinai kurios komandos) net jei esi girtas ar apnuodytas."
   },
   {
     "id": "golem",
@@ -1619,7 +1619,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvienas Pakalikas gauna 3 blefus."
+    "ability": "Kiekvienas Pakalikas sužino 3 gerus personažus, kurie nedalyvauja žaidime."
   },
   {
     "id": "heretic",
@@ -1672,7 +1672,7 @@
       "2nd"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį, pasirink 2 žaidėjus: rytoj, 1 žaidėjas yra Išprotėjęs' jog 2 yra blogas. Vienas iš jų arba abu gali mirti."
+    "ability": "Kiekvieną naktį pasirink 2 žaidėjus: rytoj, 1 žaidėjas yra Išprotėjęs' jog 2 yra blogas. Vienas iš jų arba abu gali mirti."
   },
   {
     "id": "fearmonger",
@@ -1685,7 +1685,7 @@
       "Fear"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį, pasirink žaidėją: jei tu nominuoji ir jam atliekama egzekucija, jo komanda pralaimi. Visi žaidėjai žino jei tu pasirinkai naują žaidėją."
+    "ability": "Kiekvieną naktį pasirink žaidėją: jei tu nominuoji ir jam atliekama egzekucija, jo komanda pralaimi. Visi žaidėjai žino jei tu pasirinkai naują žaidėją."
   },
   {
     "id": "psychopath",
@@ -1696,7 +1696,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Kiekvieną dieną, prieš nominaciją, gali viešai pasirinkti žaidėją: jis miršta. Jei psichopatui atlikta egzekucija, tu miršti tik tada jei pralošei 'Vaski vaski' žaidimą."
+    "ability": "Kiekvieną dieną prieš nominaciją, gali viešai pasirinkti žaidėją: jis miršta. Jei psichopatui atlikta egzekucija, tu miršti tik tada jei pralošei 'Vaski vaski' žaidimą."
   },
   {
     "id": "wizard",
@@ -1710,7 +1710,7 @@
       "?"
     ],
     "setup": false,
-    "ability": "Kartą per žaidimą, sugalvok norą. Jei noras yra išpildomas, gali tekti už tai sumokėti (bus palikta užuominų kaip tai padaryti)."
+    "ability": "Kartą per žaidimą sugalvok norą. Jei noras yra išpildomas, gali tekti už tai sumokėti (bus palikta užuominų kaip tai padaryti)."
   },
   {
     "id": "widow",
@@ -1870,7 +1870,7 @@
       "Dead"
     ],
     "setup": true,
-    "ability": "Kiekvieną naktį, Pakalikai pasirenka kuris iš jų saugo Mažąją Pabaisą ir tampa demonu. Kiekvieną naktį*, žaidėjas gali mirti. [+1 Pakalikas]"
+    "ability": "Kiekvieną naktį Pakalikai pasirenka kuris iš jų saugo Mažąją Pabaisą ir tampa demonu. Kiekvieną naktį* žaidėjas gali mirti. [+1 Pakalikas]"
   },
   {
     "id": "kazali",
@@ -1883,7 +1883,7 @@
       "Dead"
     ],
     "setup": true,
-    "ability": "Kiekvieną naktį*, pasirink žaidėją: jis miršta. [Tu pasirenki kurie žaidėjai bus kurie pakalikai. [-? - +? Prašalaičiai]"
+    "ability": "Kiekvieną naktį* pasirink žaidėją: jis miršta. [Tu pasirenki kurie žaidėjai bus kurie pakalikai. [-? - +? Prašalaičiai]"
   },
   {
     "id": "ojo",
@@ -1896,7 +1896,7 @@
       "Dead"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*, pasirink personažą: jis miršta. Jei personažas nedalyvauja žaidime, Pasakotojas pasirenka kas miršta."
+    "ability": "Kiekvieną naktį* pasirink personažą: jis miršta. Jei personažas nedalyvauja žaidime, Pasakotojas pasirenka kas miršta."
   },
   {
     "id": "alhadikhia",
@@ -1911,7 +1911,7 @@
       "3"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*, gali pasirinkti iki 3 žaidėjų (visi pasirinkti žaidėjai sužino kad juos pasirinkai): kiekvienas iš jų pasirenka gyvens ar mirs, jei visi pasirinko gyventi, visi miršta."
+    "ability": "Kiekvieną naktį* gali pasirinkti iki 3 žaidėjų (visi pasirinkti žaidėjai sužino kad juos pasirinkai): kiekvienas iš jų pasirenka gyvens ar mirs, jei visi pasirinko gyventi, visi miršta."
   },
   {
     "id": "legion",
@@ -1925,7 +1925,7 @@
       "About To Die"
     ],
     "setup": true,
-    "ability": "Kiekvieną naktį*, žaidėjas gali mirti. Egzekucija nepavyksta, jei tik blogi žaidėjai balsavo. Tu esi aptinkamas kaip Pakalikas. [Didžioji dalis žaidėjų yra Legionas]"
+    "ability": "Kiekvieną naktį* žaidėjas gali mirti. Egzekucija nepavyksta, jei tik blogi žaidėjai balsavo. Tu esi aptinkamas kaip Pakalikas. [Didžioji dalis žaidėjų yra Legionas]"
   },
   {
     "id": "lordoftyphon",
@@ -1938,7 +1938,7 @@
       "Dead"
     ],
     "setup": true,
-    "ability": "Kiekvieną naktį*, pasirink žaidėją: jis miršta.[Blogi personažai yra linijoje, tu esi viduryje. +1 Pakalikas. -? arba +? Prašalaičių.]"
+    "ability": "Kiekvieną naktį* pasirink žaidėją: jis miršta.[Blogi personažai yra linijoje, tu esi viduryje. +1 Pakalikas. -? arba +? Prašalaičių.]"
   },
   {
     "id": "lleech",
@@ -1952,7 +1952,7 @@
       "Poisoned"
     ],
     "setup": false,
-    "ability": "Kiekvieną naktį*, pasirenki žaidėją: jis miršta. Pirmą naktį pasirenki žaidėją: jis yra apnuodytas. Tu miršti tik tada kai pasirinktasis žaidėjas miršta."
+    "ability": "Kiekvieną naktį* pasirenki žaidėją: jis miršta. Pirmą naktį pasirenki žaidėją: jis yra apnuodytas. Tu miršti tik tada kai pasirinktasis žaidėjas miršta."
   },
   {
     "id": "leviathan",
@@ -1996,7 +1996,7 @@
     "otherNightReminder": "Pakeisk žaidėjo (bet kurio išskyrus tą kurį pasirinko Cacklejack) žetoną kito personažo žetonu. Pažadink žaidėją, parodyk jam 'TU ESI' ir jo naująjį žetoną.",
     "reminders": ["Not Me"],
     "setup": false,
-    "ability": "Kiekvieną dieną, pasirink žaidėją: kito žaidėjo žetonas bus pakeistas šiąnakt."
+    "ability": "Kiekvieną dieną pasirink žaidėją: kito žaidėjo žetonas bus pakeistas šiąnakt."
   },
   {
     "id": "gangster",
