@@ -124,7 +124,7 @@
       "No Ability"
     ],
     "setup": false,
-    "ability": "Kai esi nominuojamas pirmą kartą. Jei nominuotojas yra Miestietis — iškart atliekama egzekucija."
+    "ability": "Kai esi nominuojamas pirmą kartą. Jei nominuotojas yra Miestietis. Jam iškart atliekama egzekucija."
   },
   {
     "id": "slayer",
@@ -137,7 +137,7 @@
       "No Ability"
     ],
     "setup": false,
-    "ability": "Vieną Kartą per žaidimą dienos metu, viešai pasirink žaidėją. Jei jis yra Demonas — miršta."
+    "ability": "Vieną kart per žaidimą dienos metu, viešai pasirink žaidėją. Jei jis yra Demonas — miršta."
   },
   {
     "id": "soldier",
@@ -427,8 +427,8 @@
     "name": "Meilikautojas",
     "edition": "bmr",
     "team": "townsfolk",
-    "firstNightReminder": "Meilikautojas parodo galvos signalą 'ne' arba pasirenka personažą iš lapo. Jei Meilikautojas panaudojo savo sugebėjimą: jei žaidėjas dalyvauja žaidime, tas žaidėjas yra girtas.",
-    "otherNightReminder": "Sumažinti likusių dienų žetoną pasirinktam girtam žaidėjui. Meilikautojas parodo gavlos signalą 'ne' arba pasirenka personažą iš lapo. Jei Meilikautojas panaudojo savo sugebėjimą: jei žaidėjas dalyvauja žaidime, tas žaidėjas yra girtas.",
+    "firstNightReminder": "Parodyk Meilikautojui AR NAUDOSI SAVO SUGEBĖJIMĄ?. Jei taip Meilikautojas parodo į pasirinktą personažą iš lapo. Jei personažas dalyvauja žaidime tas žaidėjas tampa girtas.",
+    "otherNightReminder": "Jei Meilikautojas jau panaudojo savo sugebėjimą: Sumažinti likusių dienų žetoną pasirinktam girtam žaidėjui. Jei meilikautojas nepanaudojo savo sugebėjimo: parodyk jam  AR NAUDOSI SAVO SUGEBĖJIMĄ?. Jei taip Meilikautojas parodo į pasirinktą personažą iš lapo. Jei personažas dalyvauja žaidime tas žaidėjas tampa girtas.",
     "reminders": [
       "Drunk 1",
       "Drunk 2",
@@ -444,7 +444,7 @@
     "edition": "bmr",
     "team": "townsfolk",
     "firstNightReminder": "",
-    "otherNightReminder": "Jei profesorius nepanaudojo savo sugebėjimo: Profesorius parodo galvos signalą 'ne' arba pasirenka žaidėją: Jei tas žaidėjas yra Miestelėnas, jis tampa gyvu.",
+    "otherNightReminder": "Jei profesorius nepanaudojo savo sugebėjimo: Parodyk AR NAUDOSI SAVO SUGEBĖJIMĄ?. Profesorius pasirenka žaidėją: Jei tas žaidėjas yra Miestelėnas, jis tampa gyvu.",
     "reminders": [
       "Alive",
       "No Ability"
@@ -838,8 +838,8 @@
     "name": "Siuvėja",
     "edition": "snv",
     "team": "townsfolk",
-    "firstNightReminder": "Siuvėja parodo 'no' galvos signalą arba parodo į 2 kitus žaidėjus. Jei Siuvėja pasirinko 2 žaidėjus, linktelk galvą 'Taip' arba pakratyk galvą 'Ne' jei žaidėjai yra toje pačioje komandoje.",
-    "otherNightReminder": "Jei Siuvėja nepanaudojo savo sugebėjimo: Siuvėja parodo 'no' galvos signalą arba parodo į 2 kitus žaidėjus. Jei Siuvėja pasirinko 2 žaidėjus, linktelk galvą 'Taip' arba pakratyk galvą 'Ne' jei žaidėjai yra toje pačioje komandoje.",
+    "firstNightReminder": "Parodyk Siuvėjai AR NAUDOSI SAVO SUGEBĖJIMĄ?. Jei taip Siuvėja parodo į 2 kitus žaidėjus. Jei Siuvėja pasirinko 2 žaidėjus, linktelk galvą 'Taip' arba pakratyk galvą 'Ne' jei žaidėjai yra toje pačioje komandoje.",
+    "otherNightReminder": "Jei Siuvėja nepanaudojo savo sugebėjimo: Parodyk Siuvėjai AR NAUDOSI SAVO SUGEBĖJIMĄ?. Siuvėja parodo į 2 kitus žaidėjus. Jei Siuvėja pasirinko 2 žaidėjus, linktelk galvą 'Taip' arba pakratyk galvą 'Ne' jei žaidėjai yra toje pačioje komandoje.",
     "reminders": [
       "No Ability"
     ],
@@ -851,8 +851,8 @@
     "name": "Filosofas",
     "edition": "snv",
     "team": "townsfolk",
-    "firstNightReminder": "Filosofas parodo 'no' galvos signalą arba parodo į  gerą personažą iš lapo. Jei pasirinko personą: apsikeičia su nedalyvaujančiu personažu žetonais ir padedamas 'Is The Philosopher' markeris. Jei personažas dalyvauja žaidime, padėk 'drunk' markerį šalia šio žaidėjo.",
-    "otherNightReminder": "Jei Filosofas nepanaudojo savo sugebėjimo: Filosofas parodo 'no' galvos signalą arba parodo į  gerą personažą iš lapo. Jei pasirinko personą: apsikeičia su nedalyvaujančiu personažu žetonais ir padedamas 'Is The Philosopher' markeris. Jei personažas dalyvauja žaidime, padėk 'drunk' markerį šalia šio žaidėjo.",
+    "firstNightReminder": "Parodyk Filosofui AR NAUDOSI SAVO SUGEBĖJIMĄ?. Jei taip Filosofas parodo į gerą personažą iš lapo. \n - Jei personažas nedalyvauja žaidime: apsikeičia su nedalyvaujančiu personažu žetonais ir padedamas 'Is The Philosopher' markeris. \n - Jei personažas dalyvauja žaidime: padėk 'drunk' markerį šalia šio žaidėjo.",
+    "otherNightReminder": "Jei Filosofas nepanaudojo savo sugebėjimo: Parodyk Filosofui AR NAUDOSI SAVO SUGEBĖJIMĄ?. Jei taip Filosofas parodo į gerą personažą iš lapo. \n - Jei personažas nedalyvauja žaidime: apsikeičia su nedalyvaujančiu personažu žetonais ir padedamas 'Is The Philosopher' markeris. \n - Jei personažas dalyvauja žaidime: padėk 'drunk' markerį šalia šio žaidėjo.",
     "reminders": [
       "Drunk",
       "Is The Philosopher"
